@@ -30,11 +30,20 @@ const itemTypeOptionLabelMap: Record<ItemType, string> = {
   quarterstaves: '细仗',
 }
 
+const itemRarityOptionLabelMap: Record<ItemRarity, string> = {
+  normal: '普通',
+  magic: '魔法',
+  rare: '稀有',
+}
+
 export const useItemStore = defineStore('item', () => {
   const item = ref(initItem)
   const itemTypeOptions = ref(
     Object.entries(itemTypeOptionLabelMap).map(([value, label]) => ({ value, label })),
   )
+  const itemRarityOptions = ref(
+    Object.entries(itemRarityOptionLabelMap).map(([value, label]) => ({ value, label })),
+  )
 
-  return { item, itemTypeOptions }
+  return { item, itemTypeOptions, itemRarityOptions }
 })
