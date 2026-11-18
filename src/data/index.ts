@@ -29,16 +29,16 @@ type RawDataFile = {
   normal: RawAffix[]
 }
 
-type Affix = {
+export type Affix = {
   name: string
   isPrefix: boolean
   id: string
   tags: string[]
   dropChance: number
-  modLevel: number
+  level: number
 }
 
-type DataFile = {
+export type DataFile = {
   normal: Affix[]
 }
 
@@ -76,7 +76,7 @@ function createAffix(rawAffix: RawAffix): Affix {
     isPrefix: rawAffix.ModGenerationTypeID === '1',
     tags: rawAffix.mod_no.map((rawTag) => handleHTMLString(rawTag)),
     dropChance: Number(rawAffix.DropChance),
-    modLevel: -1,
+    level: Number(rawAffix.Level),
   }
 }
 

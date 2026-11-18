@@ -8,7 +8,7 @@
         "属性"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 1
     },
     {
       "name": "+(9—12) 敏捷",
@@ -18,7 +18,7 @@
         "属性"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 11
     },
     {
       "name": "+(13—16) 敏捷",
@@ -28,7 +28,7 @@
         "属性"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 22
     },
     {
       "name": "+(17—20) 敏捷",
@@ -38,7 +38,7 @@
         "属性"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 33
     },
     {
       "name": "+(21—24) 敏捷",
@@ -48,7 +48,7 @@
         "属性"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 44
     },
     {
       "name": "+(25—27) 敏捷",
@@ -58,7 +58,7 @@
         "属性"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 55
     },
     {
       "name": "+(28—30) 敏捷",
@@ -68,7 +68,7 @@
         "属性"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 66
     },
     {
       "name": "+(31—33) 敏捷",
@@ -78,7 +78,7 @@
         "属性"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 74
     },
     {
       "name": "+(5—8) 智慧",
@@ -88,7 +88,7 @@
         "属性"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 1
     },
     {
       "name": "+(9—12) 智慧",
@@ -98,7 +98,7 @@
         "属性"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 11
     },
     {
       "name": "+(13—16) 智慧",
@@ -108,7 +108,7 @@
         "属性"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 22
     },
     {
       "name": "+(17—20) 智慧",
@@ -118,7 +118,7 @@
         "属性"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 33
     },
     {
       "name": "+(21—24) 智慧",
@@ -128,7 +128,7 @@
         "属性"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 44
     },
     {
       "name": "+(25—27) 智慧",
@@ -138,7 +138,7 @@
         "属性"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 55
     },
     {
       "name": "+(28—30) 智慧",
@@ -148,7 +148,7 @@
         "属性"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 66
     },
     {
       "name": "+(31—33) 智慧",
@@ -158,7 +158,7 @@
         "属性"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 74
     },
     {
       "name": "属性需求降低 15%",
@@ -166,7 +166,7 @@
       "isPrefix": false,
       "tags": [],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 24
     },
     {
       "name": "属性需求降低 20%",
@@ -174,7 +174,7 @@
       "isPrefix": false,
       "tags": [],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 32
     },
     {
       "name": "属性需求降低 25%",
@@ -182,7 +182,7 @@
       "isPrefix": false,
       "tags": [],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 40
     },
     {
       "name": "属性需求降低 30%",
@@ -190,7 +190,7 @@
       "isPrefix": false,
       "tags": [],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 52
     },
     {
       "name": "属性需求降低 35%",
@@ -198,7 +198,7 @@
       "isPrefix": false,
       "tags": [],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 60
     },
     {
       "name": "附加 (1—2) - (4—5) 物理伤害",
@@ -210,7 +210,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 1
     },
     {
       "name": "附加 (4—6) - (7—11) 物理伤害",
@@ -222,7 +222,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 8
     },
     {
       "name": "附加 (6—9) - (11—16) 物理伤害",
@@ -234,7 +234,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 16
     },
     {
       "name": "附加 (8—12) - (14—21) 物理伤害",
@@ -246,7 +246,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 33
     },
     {
       "name": "附加 (10—15) - (18—26) 物理伤害",
@@ -258,7 +258,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 46
     },
     {
       "name": "附加 (13—20) - (23—35) 物理伤害",
@@ -270,7 +270,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 54
     },
     {
       "name": "附加 (16—24) - (28—42) 物理伤害",
@@ -282,7 +282,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 60
     },
     {
       "name": "附加 (21—31) - (36—53) 物理伤害",
@@ -294,7 +294,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 65
     },
     {
       "name": "附加 (26—39) - (44—66) 物理伤害",
@@ -306,7 +306,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 75
     },
     {
       "name": "附加 (1—2) - (3—5) 火焰伤害",
@@ -319,7 +319,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 1
     },
     {
       "name": "附加 (4—6) - (7—10) 火焰伤害",
@@ -332,7 +332,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 8
     },
     {
       "name": "附加 (7—11) - (13—19) 火焰伤害",
@@ -345,7 +345,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 16
     },
     {
       "name": "附加 (13—19) - (21—29) 火焰伤害",
@@ -358,7 +358,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 33
     },
     {
       "name": "附加 (20—24) - (32—37) 火焰伤害",
@@ -371,7 +371,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 46
     },
     {
       "name": "附加 (25—33) - (38—54) 火焰伤害",
@@ -384,7 +384,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 54
     },
     {
       "name": "附加 (35—44) - (56—71) 火焰伤害",
@@ -397,7 +397,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 60
     },
     {
       "name": "附加 (47—59) - (74—97) 火焰伤害",
@@ -410,7 +410,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 65
     },
     {
       "name": "附加 (62—85) - (101—129) 火焰伤害",
@@ -423,7 +423,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 75
     },
     {
       "name": "附加 (88—101) - (133—154) 火焰伤害",
@@ -436,7 +436,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 81
     },
     {
       "name": "附加 (1—2) - (3—4) 冰霜伤害",
@@ -449,7 +449,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 1
     },
     {
       "name": "附加 (3—5) - (6—9) 冰霜伤害",
@@ -462,7 +462,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 8
     },
     {
       "name": "附加 (6—9) - (10—16) 冰霜伤害",
@@ -475,7 +475,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 16
     },
     {
       "name": "附加 (11—15) - (17—24) 冰霜伤害",
@@ -488,7 +488,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 33
     },
     {
       "name": "附加 (17—20) - (26—32) 冰霜伤害",
@@ -501,7 +501,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 46
     },
     {
       "name": "附加 (22—29) - (34—44) 冰霜伤害",
@@ -514,7 +514,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 54
     },
     {
       "name": "附加 (31—38) - (47—59) 冰霜伤害",
@@ -527,7 +527,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 60
     },
     {
       "name": "附加 (40—53) - (62—80) 冰霜伤害",
@@ -540,7 +540,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 65
     },
     {
       "name": "附加 (55—69) - (83—106) 冰霜伤害",
@@ -553,7 +553,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 75
     },
     {
       "name": "附加 (72—81) - (110—123) 冰霜伤害",
@@ -566,7 +566,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 81
     },
     {
       "name": "附加 1 - (4—6) 闪电伤害",
@@ -579,7 +579,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 1
     },
     {
       "name": "附加 1 - (13—19) 闪电伤害",
@@ -592,7 +592,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 8
     },
     {
       "name": "附加 (1—2) - (20—30) 闪电伤害",
@@ -605,7 +605,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 16
     },
     {
       "name": "附加 (1—2) - (36—52) 闪电伤害",
@@ -618,7 +618,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 33
     },
     {
       "name": "附加 (1—3) - (55—60) 闪电伤害",
@@ -631,7 +631,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 46
     },
     {
       "name": "附加 (1—4) - (63—82) 闪电伤害",
@@ -644,7 +644,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 54
     },
     {
       "name": "附加 (1—6) - (85—107) 闪电伤害",
@@ -657,7 +657,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 60
     },
     {
       "name": "附加 (1—8) - (111—152) 闪电伤害",
@@ -670,7 +670,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 65
     },
     {
       "name": "附加 (1—10) - (157—196) 闪电伤害",
@@ -683,7 +683,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 75
     },
     {
       "name": "附加 (1—12) - (202—234) 闪电伤害",
@@ -696,7 +696,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 81
     },
     {
       "name": "物理伤害提高 (40—49)%",
@@ -708,7 +708,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 1
     },
     {
       "name": "物理伤害提高 (50—64)%",
@@ -720,7 +720,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 8
     },
     {
       "name": "物理伤害提高 (65—84)%",
@@ -732,7 +732,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 16
     },
     {
       "name": "物理伤害提高 (85—109)%",
@@ -744,7 +744,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 33
     },
     {
       "name": "物理伤害提高 (110—134)%",
@@ -756,7 +756,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 46
     },
     {
       "name": "物理伤害提高 (135—154)%",
@@ -768,7 +768,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 60
     },
     {
       "name": "物理伤害提高 (155—169)%",
@@ -780,7 +780,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 75
     },
     {
       "name": "物理伤害提高 (170—179)%",
@@ -792,7 +792,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 82
     },
     {
       "name": "物理伤害提高 (15—19)%<br>+(16—20) 命中值",
@@ -804,7 +804,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 8
     },
     {
       "name": "物理伤害提高 (20—24)%<br>+(21—46) 命中值",
@@ -816,7 +816,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 14
     },
     {
       "name": "物理伤害提高 (25—34)%<br>+(47—72) 命中值",
@@ -828,7 +828,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 23
     },
     {
       "name": "物理伤害提高 (35—44)%<br>+(73—97) 命中值",
@@ -840,7 +840,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 38
     },
     {
       "name": "物理伤害提高 (45—54)%<br>+(98—123) 命中值",
@@ -852,7 +852,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 54
     },
     {
       "name": "物理伤害提高 (55—64)%<br>+(124—149) 命中值",
@@ -864,7 +864,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 65
     },
     {
       "name": "物理伤害提高 (65—74)%<br>+(150—174) 命中值",
@@ -876,7 +876,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 70
     },
     {
       "name": "物理伤害提高 (75—79)%<br>+(175—200) 命中值",
@@ -888,7 +888,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 81
     },
     {
       "name": "所有近战技能等级 +1",
@@ -898,7 +898,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 18
     },
     {
       "name": "所有近战技能等级 +2",
@@ -908,7 +908,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 36
     },
     {
       "name": "所有近战技能等级 +3",
@@ -918,7 +918,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 55
     },
     {
       "name": "所有近战技能等级 +4",
@@ -928,7 +928,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 81
     },
     {
       "name": "物理伤害的 (6—6.9)% 转化为生命偷取",
@@ -940,7 +940,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 21
     },
     {
       "name": "物理伤害的 (7—7.9)% 转化为生命偷取",
@@ -952,7 +952,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 38
     },
     {
       "name": "物理伤害的 (8—8.9)% 转化为生命偷取",
@@ -964,7 +964,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 54
     },
     {
       "name": "物理伤害的 (9—9.9)% 转化为生命偷取",
@@ -976,7 +976,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 65
     },
     {
       "name": "物理伤害的 (5—5.9)% 转化为魔力偷取",
@@ -988,7 +988,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 21
     },
     {
       "name": "物理伤害的 (6—6.9)% 转化为魔力偷取",
@@ -1000,7 +1000,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 38
     },
     {
       "name": "物理伤害的 (7—7.9)% 转化为魔力偷取",
@@ -1012,7 +1012,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 54
     },
     {
       "name": "物理伤害的 (8—8.9)% 转化为魔力偷取",
@@ -1024,7 +1024,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 65
     },
     {
       "name": "每击败一名敌人获得 (4—6) 点生命",
@@ -1034,7 +1034,7 @@
         "生命"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 1
     },
     {
       "name": "每击败一名敌人获得 (7—9) 点生命",
@@ -1044,7 +1044,7 @@
         "生命"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 11
     },
     {
       "name": "每击败一名敌人获得 (10—18) 点生命",
@@ -1054,7 +1054,7 @@
         "生命"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 22
     },
     {
       "name": "每击败一名敌人获得 (19—28) 点生命",
@@ -1064,7 +1064,7 @@
         "生命"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 33
     },
     {
       "name": "每击败一名敌人获得 (29—40) 点生命",
@@ -1074,7 +1074,7 @@
         "生命"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 44
     },
     {
       "name": "每击败一名敌人获得 (41—53) 点生命",
@@ -1084,7 +1084,7 @@
         "生命"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 55
     },
     {
       "name": "每击败一名敌人获得 (54—68) 点生命",
@@ -1094,7 +1094,7 @@
         "生命"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 66
     },
     {
       "name": "每击败一名敌人获得 (69—84) 点生命",
@@ -1104,7 +1104,7 @@
         "生命"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 77
     },
     {
       "name": "每击败一名敌人获得 (2—3) 点魔力",
@@ -1114,7 +1114,7 @@
         "魔力"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 1
     },
     {
       "name": "每击败一名敌人获得 (4—5) 点魔力",
@@ -1124,7 +1124,7 @@
         "魔力"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 12
     },
     {
       "name": "每击败一名敌人获得 (6—9) 点魔力",
@@ -1134,7 +1134,7 @@
         "魔力"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 23
     },
     {
       "name": "每击败一名敌人获得 (10—14) 点魔力",
@@ -1144,7 +1144,7 @@
         "魔力"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 34
     },
     {
       "name": "每击败一名敌人获得 (15—20) 点魔力",
@@ -1154,7 +1154,7 @@
         "魔力"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 45
     },
     {
       "name": "每击败一名敌人获得 (21—27) 点魔力",
@@ -1164,7 +1164,7 @@
         "魔力"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 56
     },
     {
       "name": "每击败一名敌人获得 (28—35) 点魔力",
@@ -1174,7 +1174,7 @@
         "魔力"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 67
     },
     {
       "name": "每击败一名敌人获得 (36—45) 点魔力",
@@ -1184,7 +1184,7 @@
         "魔力"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 78
     },
     {
       "name": "每击中一名敌人获得 2 点生命",
@@ -1195,7 +1195,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 8
     },
     {
       "name": "每击中一名敌人获得 3 点生命",
@@ -1206,7 +1206,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 20
     },
     {
       "name": "每击中一名敌人获得 4 点生命",
@@ -1217,7 +1217,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 30
     },
     {
       "name": "每击中一名敌人获得 5 点生命",
@@ -1228,7 +1228,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 40
     },
     {
       "name": "攻击速度提高 (5—7)%",
@@ -1239,7 +1239,7 @@
         "速度"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 1
     },
     {
       "name": "攻击速度提高 (8—10)%",
@@ -1250,7 +1250,7 @@
         "速度"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 11
     },
     {
       "name": "攻击速度提高 (11—13)%",
@@ -1261,7 +1261,7 @@
         "速度"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 22
     },
     {
       "name": "攻击速度提高 (14—16)%",
@@ -1272,7 +1272,7 @@
         "速度"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 30
     },
     {
       "name": "攻击速度提高 (17—19)%",
@@ -1283,7 +1283,7 @@
         "速度"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 37
     },
     {
       "name": "攻击速度提高 (20—22)%",
@@ -1294,7 +1294,7 @@
         "速度"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 45
     },
     {
       "name": "攻击速度提高 (23—25)%",
@@ -1305,7 +1305,7 @@
         "速度"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 60
     },
     {
       "name": "攻击速度提高 (26—28)%",
@@ -1316,7 +1316,7 @@
         "速度"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 77
     },
     {
       "name": "+(11—32) 命中值",
@@ -1326,7 +1326,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 8
     },
     {
       "name": "+(33—60) 命中值",
@@ -1336,7 +1336,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 13
     },
     {
       "name": "+(61—84) 命中值",
@@ -1346,7 +1346,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 18
     },
     {
       "name": "+(85—123) 命中值",
@@ -1356,7 +1356,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 26
     },
     {
       "name": "+(124—167) 命中值",
@@ -1366,7 +1366,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 36
     },
     {
       "name": "+(168—236) 命中值",
@@ -1376,7 +1376,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 48
     },
     {
       "name": "+(237—346) 命中值",
@@ -1386,7 +1386,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 58
     },
     {
       "name": "+(347—450) 命中值",
@@ -1396,7 +1396,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 67
     },
     {
       "name": "+(451—550) 命中值",
@@ -1406,7 +1406,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 76
     },
     {
       "name": "暴击几率 +(1.01—1.5)%",
@@ -1417,7 +1417,7 @@
         "暴击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 1
     },
     {
       "name": "暴击几率 +(1.51—2.1)%",
@@ -1428,7 +1428,7 @@
         "暴击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 20
     },
     {
       "name": "暴击几率 +(2.11—2.7)%",
@@ -1439,7 +1439,7 @@
         "暴击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 30
     },
     {
       "name": "暴击几率 +(3.11—3.8)%",
@@ -1450,7 +1450,7 @@
         "暴击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 44
     },
     {
       "name": "暴击几率 +(3.81—4.4)%",
@@ -1461,7 +1461,7 @@
         "暴击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 59
     },
     {
       "name": "暴击几率 +(4.41—5)%",
@@ -1472,7 +1472,7 @@
         "暴击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 73
     },
     {
       "name": "+(10—11)% 暴击伤害加成",
@@ -1484,7 +1484,7 @@
         "暴击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 8
     },
     {
       "name": "+(12—13)% 暴击伤害加成",
@@ -1496,7 +1496,7 @@
         "暴击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 21
     },
     {
       "name": "+(14—16)% 暴击伤害加成",
@@ -1508,7 +1508,7 @@
         "暴击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 30
     },
     {
       "name": "+(17—19)% 暴击伤害加成",
@@ -1520,7 +1520,7 @@
         "暴击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 44
     },
     {
       "name": "+(20—22)% 暴击伤害加成",
@@ -1532,7 +1532,7 @@
         "暴击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 59
     },
     {
       "name": "+(23—25)% 暴击伤害加成",
@@ -1544,7 +1544,7 @@
         "暴击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 73
     },
     {
       "name": "+(10—20) 命中值<br>照亮范围提高 5%",
@@ -1554,7 +1554,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 8
     },
     {
       "name": "+(21—40) 命中值<br>照亮范围提高 10%",
@@ -1564,7 +1564,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 15
     },
     {
       "name": "+(41—60) 命中值<br>照亮范围提高 15%",
@@ -1574,7 +1574,7 @@
         "攻击"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 30
     },
     {
       "name": "晕眩持续时间提高 (11—13)%",
@@ -1582,7 +1582,7 @@
       "isPrefix": false,
       "tags": [],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 5
     },
     {
       "name": "晕眩持续时间提高 (14—16)%",
@@ -1590,7 +1590,7 @@
       "isPrefix": false,
       "tags": [],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 18
     },
     {
       "name": "晕眩持续时间提高 (17—19)%",
@@ -1598,7 +1598,7 @@
       "isPrefix": false,
       "tags": [],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 30
     },
     {
       "name": "晕眩持续时间提高 (20—22)%",
@@ -1606,7 +1606,7 @@
       "isPrefix": false,
       "tags": [],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 44
     },
     {
       "name": "晕眩持续时间提高 (23—26)%",
@@ -1614,7 +1614,7 @@
       "isPrefix": false,
       "tags": [],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 58
     },
     {
       "name": "晕眩持续时间提高 (27—30)%",
@@ -1622,7 +1622,7 @@
       "isPrefix": false,
       "tags": [],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 71
     },
     {
       "name": "造成的晕眩积蓄值提高 (21—30)%",
@@ -1630,7 +1630,7 @@
       "isPrefix": false,
       "tags": [],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 5
     },
     {
       "name": "造成的晕眩积蓄值提高 (31—40)%",
@@ -1638,7 +1638,7 @@
       "isPrefix": false,
       "tags": [],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 20
     },
     {
       "name": "造成的晕眩积蓄值提高 (41—50)%",
@@ -1646,7 +1646,7 @@
       "isPrefix": false,
       "tags": [],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 30
     },
     {
       "name": "造成的晕眩积蓄值提高 (51—60)%",
@@ -1654,7 +1654,7 @@
       "isPrefix": false,
       "tags": [],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 44
     },
     {
       "name": "造成的晕眩积蓄值提高 (61—70)%",
@@ -1662,7 +1662,7 @@
       "isPrefix": false,
       "tags": [],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 58
     },
     {
       "name": "造成的晕眩积蓄值提高 (71—80)%",
@@ -1670,7 +1670,7 @@
       "isPrefix": false,
       "tags": [],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 74
     },
     {
       "name": "攻击技能的元素伤害提高 (19—35)%",
@@ -1684,7 +1684,7 @@
         "闪电"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 4
     },
     {
       "name": "攻击技能的元素伤害提高 (36—52)%",
@@ -1698,7 +1698,7 @@
         "闪电"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 16
     },
     {
       "name": "攻击技能的元素伤害提高 (53—62)%",
@@ -1712,7 +1712,7 @@
         "闪电"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 33
     },
     {
       "name": "攻击技能的元素伤害提高 (63—72)%",
@@ -1726,7 +1726,7 @@
         "闪电"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 46
     },
     {
       "name": "攻击技能的元素伤害提高 (73—86)%",
@@ -1740,7 +1740,7 @@
         "闪电"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 60
     },
     {
       "name": "攻击技能的元素伤害提高 (87—100)%",
@@ -1754,7 +1754,7 @@
         "闪电"
       ],
       "dropChance": 1,
-      "modLevel": -1
+      "level": 81
     }
   ]
 }

@@ -1,17 +1,18 @@
 <script setup lang="ts">
-defineProps<{
-  msg: string
-}>()
+import { useItemStore } from '@/stores/item.ts'
+
+const itemStore = useItemStore()
 </script>
 
 <template>
   <div class="greetings">
-    <h1 class="green">{{ msg }}</h1>
-    <h3>
-      You’ve successfully created a project with
-      <a href="https://vite.dev/" target="_blank" rel="noopener">Vite</a> +
-      <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue 3</a>. What's next?
-    </h3>
+    <h1 class="green">Item Info</h1>
+    <select id="itemType" v-model="itemStore.item.type">
+      <option v-for="option in itemStore.itemTypeOptions" :key="option.value" :value="option.value">
+        {{ option.label }}
+      </option>
+    </select>
+    <h2>item affixes</h2>
   </div>
 </template>
 
