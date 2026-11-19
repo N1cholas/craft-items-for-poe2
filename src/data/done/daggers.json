@@ -2,7 +2,7 @@
   "normal": [
     {
       "name": "+(5—8) 敏捷",
-      "id": "Dexterity",
+      "id": "Dexterity-属性",
       "isPrefix": false,
       "tags": [
         "属性"
@@ -12,7 +12,7 @@
     },
     {
       "name": "+(9—12) 敏捷",
-      "id": "Dexterity",
+      "id": "Dexterity-属性",
       "isPrefix": false,
       "tags": [
         "属性"
@@ -22,7 +22,7 @@
     },
     {
       "name": "+(13—16) 敏捷",
-      "id": "Dexterity",
+      "id": "Dexterity-属性",
       "isPrefix": false,
       "tags": [
         "属性"
@@ -32,7 +32,7 @@
     },
     {
       "name": "+(17—20) 敏捷",
-      "id": "Dexterity",
+      "id": "Dexterity-属性",
       "isPrefix": false,
       "tags": [
         "属性"
@@ -42,7 +42,7 @@
     },
     {
       "name": "+(21—24) 敏捷",
-      "id": "Dexterity",
+      "id": "Dexterity-属性",
       "isPrefix": false,
       "tags": [
         "属性"
@@ -52,7 +52,7 @@
     },
     {
       "name": "+(25—27) 敏捷",
-      "id": "Dexterity",
+      "id": "Dexterity-属性",
       "isPrefix": false,
       "tags": [
         "属性"
@@ -62,7 +62,7 @@
     },
     {
       "name": "+(28—30) 敏捷",
-      "id": "Dexterity",
+      "id": "Dexterity-属性",
       "isPrefix": false,
       "tags": [
         "属性"
@@ -72,7 +72,7 @@
     },
     {
       "name": "+(31—33) 敏捷",
-      "id": "Dexterity",
+      "id": "Dexterity-属性",
       "isPrefix": false,
       "tags": [
         "属性"
@@ -82,7 +82,7 @@
     },
     {
       "name": "+(5—8) 智慧",
-      "id": "Intelligence",
+      "id": "Intelligence-属性",
       "isPrefix": false,
       "tags": [
         "属性"
@@ -92,7 +92,7 @@
     },
     {
       "name": "+(9—12) 智慧",
-      "id": "Intelligence",
+      "id": "Intelligence-属性",
       "isPrefix": false,
       "tags": [
         "属性"
@@ -102,7 +102,7 @@
     },
     {
       "name": "+(13—16) 智慧",
-      "id": "Intelligence",
+      "id": "Intelligence-属性",
       "isPrefix": false,
       "tags": [
         "属性"
@@ -112,7 +112,7 @@
     },
     {
       "name": "+(17—20) 智慧",
-      "id": "Intelligence",
+      "id": "Intelligence-属性",
       "isPrefix": false,
       "tags": [
         "属性"
@@ -122,7 +122,7 @@
     },
     {
       "name": "+(21—24) 智慧",
-      "id": "Intelligence",
+      "id": "Intelligence-属性",
       "isPrefix": false,
       "tags": [
         "属性"
@@ -132,7 +132,7 @@
     },
     {
       "name": "+(25—27) 智慧",
-      "id": "Intelligence",
+      "id": "Intelligence-属性",
       "isPrefix": false,
       "tags": [
         "属性"
@@ -142,7 +142,7 @@
     },
     {
       "name": "+(28—30) 智慧",
-      "id": "Intelligence",
+      "id": "Intelligence-属性",
       "isPrefix": false,
       "tags": [
         "属性"
@@ -152,7 +152,7 @@
     },
     {
       "name": "+(31—33) 智慧",
-      "id": "Intelligence",
+      "id": "Intelligence-属性",
       "isPrefix": false,
       "tags": [
         "属性"
@@ -162,7 +162,7 @@
     },
     {
       "name": "属性需求降低 15%",
-      "id": "LocalAttributeRequirements",
+      "id": "LocalAttributeRequirements-",
       "isPrefix": false,
       "tags": [],
       "dropChance": 1,
@@ -170,7 +170,7 @@
     },
     {
       "name": "属性需求降低 20%",
-      "id": "LocalAttributeRequirements",
+      "id": "LocalAttributeRequirements-",
       "isPrefix": false,
       "tags": [],
       "dropChance": 1,
@@ -178,7 +178,7 @@
     },
     {
       "name": "属性需求降低 25%",
-      "id": "LocalAttributeRequirements",
+      "id": "LocalAttributeRequirements-",
       "isPrefix": false,
       "tags": [],
       "dropChance": 1,
@@ -186,7 +186,7 @@
     },
     {
       "name": "属性需求降低 30%",
-      "id": "LocalAttributeRequirements",
+      "id": "LocalAttributeRequirements-",
       "isPrefix": false,
       "tags": [],
       "dropChance": 1,
@@ -194,7 +194,7 @@
     },
     {
       "name": "属性需求降低 35%",
-      "id": "LocalAttributeRequirements",
+      "id": "LocalAttributeRequirements-",
       "isPrefix": false,
       "tags": [],
       "dropChance": 1,
@@ -202,7 +202,7 @@
     },
     {
       "name": "附加 (1—2) - (4—5) 物理伤害",
-      "id": "PhysicalDamage",
+      "id": "PhysicalDamage-伤害物理攻击",
       "isPrefix": true,
       "tags": [
         "伤害",
@@ -214,7 +214,7 @@
     },
     {
       "name": "附加 (4—6) - (7—11) 物理伤害",
-      "id": "PhysicalDamage",
+      "id": "PhysicalDamage-伤害物理攻击",
       "isPrefix": true,
       "tags": [
         "伤害",
@@ -226,7 +226,7 @@
     },
     {
       "name": "附加 (6—9) - (11—16) 物理伤害",
-      "id": "PhysicalDamage",
+      "id": "PhysicalDamage-伤害物理攻击",
       "isPrefix": true,
       "tags": [
         "伤害",
@@ -238,7 +238,7 @@
     },
     {
       "name": "附加 (8—12) - (14—21) 物理伤害",
-      "id": "PhysicalDamage",
+      "id": "PhysicalDamage-伤害物理攻击",
       "isPrefix": true,
       "tags": [
         "伤害",
@@ -250,7 +250,7 @@
     },
     {
       "name": "附加 (10—15) - (18—26) 物理伤害",
-      "id": "PhysicalDamage",
+      "id": "PhysicalDamage-伤害物理攻击",
       "isPrefix": true,
       "tags": [
         "伤害",
@@ -262,7 +262,7 @@
     },
     {
       "name": "附加 (13—20) - (23—35) 物理伤害",
-      "id": "PhysicalDamage",
+      "id": "PhysicalDamage-伤害物理攻击",
       "isPrefix": true,
       "tags": [
         "伤害",
@@ -274,7 +274,7 @@
     },
     {
       "name": "附加 (16—24) - (28—42) 物理伤害",
-      "id": "PhysicalDamage",
+      "id": "PhysicalDamage-伤害物理攻击",
       "isPrefix": true,
       "tags": [
         "伤害",
@@ -286,7 +286,7 @@
     },
     {
       "name": "附加 (21—31) - (36—53) 物理伤害",
-      "id": "PhysicalDamage",
+      "id": "PhysicalDamage-伤害物理攻击",
       "isPrefix": true,
       "tags": [
         "伤害",
@@ -298,7 +298,7 @@
     },
     {
       "name": "附加 (26—39) - (44—66) 物理伤害",
-      "id": "PhysicalDamage",
+      "id": "PhysicalDamage-伤害物理攻击",
       "isPrefix": true,
       "tags": [
         "伤害",
@@ -310,7 +310,7 @@
     },
     {
       "name": "附加 (1—2) - (3—5) 火焰伤害",
-      "id": "FireDamage",
+      "id": "FireDamage-伤害元素火焰攻击",
       "isPrefix": true,
       "tags": [
         "伤害",
@@ -323,7 +323,7 @@
     },
     {
       "name": "附加 (4—6) - (7—10) 火焰伤害",
-      "id": "FireDamage",
+      "id": "FireDamage-伤害元素火焰攻击",
       "isPrefix": true,
       "tags": [
         "伤害",
@@ -336,7 +336,7 @@
     },
     {
       "name": "附加 (7—11) - (13—19) 火焰伤害",
-      "id": "FireDamage",
+      "id": "FireDamage-伤害元素火焰攻击",
       "isPrefix": true,
       "tags": [
         "伤害",
@@ -349,7 +349,7 @@
     },
     {
       "name": "附加 (13—19) - (21—29) 火焰伤害",
-      "id": "FireDamage",
+      "id": "FireDamage-伤害元素火焰攻击",
       "isPrefix": true,
       "tags": [
         "伤害",
@@ -362,7 +362,7 @@
     },
     {
       "name": "附加 (20—24) - (32—37) 火焰伤害",
-      "id": "FireDamage",
+      "id": "FireDamage-伤害元素火焰攻击",
       "isPrefix": true,
       "tags": [
         "伤害",
@@ -375,7 +375,7 @@
     },
     {
       "name": "附加 (25—33) - (38—54) 火焰伤害",
-      "id": "FireDamage",
+      "id": "FireDamage-伤害元素火焰攻击",
       "isPrefix": true,
       "tags": [
         "伤害",
@@ -388,7 +388,7 @@
     },
     {
       "name": "附加 (35—44) - (56—71) 火焰伤害",
-      "id": "FireDamage",
+      "id": "FireDamage-伤害元素火焰攻击",
       "isPrefix": true,
       "tags": [
         "伤害",
@@ -401,7 +401,7 @@
     },
     {
       "name": "附加 (47—59) - (74—97) 火焰伤害",
-      "id": "FireDamage",
+      "id": "FireDamage-伤害元素火焰攻击",
       "isPrefix": true,
       "tags": [
         "伤害",
@@ -414,7 +414,7 @@
     },
     {
       "name": "附加 (62—85) - (101—129) 火焰伤害",
-      "id": "FireDamage",
+      "id": "FireDamage-伤害元素火焰攻击",
       "isPrefix": true,
       "tags": [
         "伤害",
@@ -427,7 +427,7 @@
     },
     {
       "name": "附加 (88—101) - (133—154) 火焰伤害",
-      "id": "FireDamage",
+      "id": "FireDamage-伤害元素火焰攻击",
       "isPrefix": true,
       "tags": [
         "伤害",
@@ -440,7 +440,7 @@
     },
     {
       "name": "附加 (1—2) - (3—4) 冰霜伤害",
-      "id": "ColdDamage",
+      "id": "ColdDamage-伤害元素冰霜攻击",
       "isPrefix": true,
       "tags": [
         "伤害",
@@ -453,7 +453,7 @@
     },
     {
       "name": "附加 (3—5) - (6—9) 冰霜伤害",
-      "id": "ColdDamage",
+      "id": "ColdDamage-伤害元素冰霜攻击",
       "isPrefix": true,
       "tags": [
         "伤害",
@@ -466,7 +466,7 @@
     },
     {
       "name": "附加 (6—9) - (10—16) 冰霜伤害",
-      "id": "ColdDamage",
+      "id": "ColdDamage-伤害元素冰霜攻击",
       "isPrefix": true,
       "tags": [
         "伤害",
@@ -479,7 +479,7 @@
     },
     {
       "name": "附加 (11—15) - (17—24) 冰霜伤害",
-      "id": "ColdDamage",
+      "id": "ColdDamage-伤害元素冰霜攻击",
       "isPrefix": true,
       "tags": [
         "伤害",
@@ -492,7 +492,7 @@
     },
     {
       "name": "附加 (17—20) - (26—32) 冰霜伤害",
-      "id": "ColdDamage",
+      "id": "ColdDamage-伤害元素冰霜攻击",
       "isPrefix": true,
       "tags": [
         "伤害",
@@ -505,7 +505,7 @@
     },
     {
       "name": "附加 (22—29) - (34—44) 冰霜伤害",
-      "id": "ColdDamage",
+      "id": "ColdDamage-伤害元素冰霜攻击",
       "isPrefix": true,
       "tags": [
         "伤害",
@@ -518,7 +518,7 @@
     },
     {
       "name": "附加 (31—38) - (47—59) 冰霜伤害",
-      "id": "ColdDamage",
+      "id": "ColdDamage-伤害元素冰霜攻击",
       "isPrefix": true,
       "tags": [
         "伤害",
@@ -531,7 +531,7 @@
     },
     {
       "name": "附加 (40—53) - (62—80) 冰霜伤害",
-      "id": "ColdDamage",
+      "id": "ColdDamage-伤害元素冰霜攻击",
       "isPrefix": true,
       "tags": [
         "伤害",
@@ -544,7 +544,7 @@
     },
     {
       "name": "附加 (55—69) - (83—106) 冰霜伤害",
-      "id": "ColdDamage",
+      "id": "ColdDamage-伤害元素冰霜攻击",
       "isPrefix": true,
       "tags": [
         "伤害",
@@ -557,7 +557,7 @@
     },
     {
       "name": "附加 (72—81) - (110—123) 冰霜伤害",
-      "id": "ColdDamage",
+      "id": "ColdDamage-伤害元素冰霜攻击",
       "isPrefix": true,
       "tags": [
         "伤害",
@@ -570,7 +570,7 @@
     },
     {
       "name": "附加 1 - (4—6) 闪电伤害",
-      "id": "LightningDamage",
+      "id": "LightningDamage-伤害元素闪电攻击",
       "isPrefix": true,
       "tags": [
         "伤害",
@@ -583,7 +583,7 @@
     },
     {
       "name": "附加 1 - (13—19) 闪电伤害",
-      "id": "LightningDamage",
+      "id": "LightningDamage-伤害元素闪电攻击",
       "isPrefix": true,
       "tags": [
         "伤害",
@@ -596,7 +596,7 @@
     },
     {
       "name": "附加 (1—2) - (20—30) 闪电伤害",
-      "id": "LightningDamage",
+      "id": "LightningDamage-伤害元素闪电攻击",
       "isPrefix": true,
       "tags": [
         "伤害",
@@ -609,7 +609,7 @@
     },
     {
       "name": "附加 (1—2) - (36—52) 闪电伤害",
-      "id": "LightningDamage",
+      "id": "LightningDamage-伤害元素闪电攻击",
       "isPrefix": true,
       "tags": [
         "伤害",
@@ -622,7 +622,7 @@
     },
     {
       "name": "附加 (1—3) - (55—60) 闪电伤害",
-      "id": "LightningDamage",
+      "id": "LightningDamage-伤害元素闪电攻击",
       "isPrefix": true,
       "tags": [
         "伤害",
@@ -635,7 +635,7 @@
     },
     {
       "name": "附加 (1—4) - (63—82) 闪电伤害",
-      "id": "LightningDamage",
+      "id": "LightningDamage-伤害元素闪电攻击",
       "isPrefix": true,
       "tags": [
         "伤害",
@@ -648,7 +648,7 @@
     },
     {
       "name": "附加 (1—6) - (85—107) 闪电伤害",
-      "id": "LightningDamage",
+      "id": "LightningDamage-伤害元素闪电攻击",
       "isPrefix": true,
       "tags": [
         "伤害",
@@ -661,7 +661,7 @@
     },
     {
       "name": "附加 (1—8) - (111—152) 闪电伤害",
-      "id": "LightningDamage",
+      "id": "LightningDamage-伤害元素闪电攻击",
       "isPrefix": true,
       "tags": [
         "伤害",
@@ -674,7 +674,7 @@
     },
     {
       "name": "附加 (1—10) - (157—196) 闪电伤害",
-      "id": "LightningDamage",
+      "id": "LightningDamage-伤害元素闪电攻击",
       "isPrefix": true,
       "tags": [
         "伤害",
@@ -687,7 +687,7 @@
     },
     {
       "name": "附加 (1—12) - (202—234) 闪电伤害",
-      "id": "LightningDamage",
+      "id": "LightningDamage-伤害元素闪电攻击",
       "isPrefix": true,
       "tags": [
         "伤害",
@@ -700,7 +700,7 @@
     },
     {
       "name": "物理伤害提高 (40—49)%",
-      "id": "LocalPhysicalDamagePercent",
+      "id": "LocalPhysicalDamagePercent-伤害物理攻击",
       "isPrefix": true,
       "tags": [
         "伤害",
@@ -712,7 +712,7 @@
     },
     {
       "name": "物理伤害提高 (50—64)%",
-      "id": "LocalPhysicalDamagePercent",
+      "id": "LocalPhysicalDamagePercent-伤害物理攻击",
       "isPrefix": true,
       "tags": [
         "伤害",
@@ -724,7 +724,7 @@
     },
     {
       "name": "物理伤害提高 (65—84)%",
-      "id": "LocalPhysicalDamagePercent",
+      "id": "LocalPhysicalDamagePercent-伤害物理攻击",
       "isPrefix": true,
       "tags": [
         "伤害",
@@ -736,7 +736,7 @@
     },
     {
       "name": "物理伤害提高 (85—109)%",
-      "id": "LocalPhysicalDamagePercent",
+      "id": "LocalPhysicalDamagePercent-伤害物理攻击",
       "isPrefix": true,
       "tags": [
         "伤害",
@@ -748,7 +748,7 @@
     },
     {
       "name": "物理伤害提高 (110—134)%",
-      "id": "LocalPhysicalDamagePercent",
+      "id": "LocalPhysicalDamagePercent-伤害物理攻击",
       "isPrefix": true,
       "tags": [
         "伤害",
@@ -760,7 +760,7 @@
     },
     {
       "name": "物理伤害提高 (135—154)%",
-      "id": "LocalPhysicalDamagePercent",
+      "id": "LocalPhysicalDamagePercent-伤害物理攻击",
       "isPrefix": true,
       "tags": [
         "伤害",
@@ -772,7 +772,7 @@
     },
     {
       "name": "物理伤害提高 (155—169)%",
-      "id": "LocalPhysicalDamagePercent",
+      "id": "LocalPhysicalDamagePercent-伤害物理攻击",
       "isPrefix": true,
       "tags": [
         "伤害",
@@ -784,7 +784,7 @@
     },
     {
       "name": "物理伤害提高 (170—179)%",
-      "id": "LocalPhysicalDamagePercent",
+      "id": "LocalPhysicalDamagePercent-伤害物理攻击",
       "isPrefix": true,
       "tags": [
         "伤害",
@@ -796,7 +796,7 @@
     },
     {
       "name": "物理伤害提高 (15—19)%<br>+(16—20) 命中值",
-      "id": "LocalIncreasedPhysicalDamagePercentAndAccuracyRating",
+      "id": "LocalIncreasedPhysicalDamagePercentAndAccuracyRating-伤害物理攻击",
       "isPrefix": true,
       "tags": [
         "伤害",
@@ -808,7 +808,7 @@
     },
     {
       "name": "物理伤害提高 (20—24)%<br>+(21—46) 命中值",
-      "id": "LocalIncreasedPhysicalDamagePercentAndAccuracyRating",
+      "id": "LocalIncreasedPhysicalDamagePercentAndAccuracyRating-伤害物理攻击",
       "isPrefix": true,
       "tags": [
         "伤害",
@@ -820,7 +820,7 @@
     },
     {
       "name": "物理伤害提高 (25—34)%<br>+(47—72) 命中值",
-      "id": "LocalIncreasedPhysicalDamagePercentAndAccuracyRating",
+      "id": "LocalIncreasedPhysicalDamagePercentAndAccuracyRating-伤害物理攻击",
       "isPrefix": true,
       "tags": [
         "伤害",
@@ -832,7 +832,7 @@
     },
     {
       "name": "物理伤害提高 (35—44)%<br>+(73—97) 命中值",
-      "id": "LocalIncreasedPhysicalDamagePercentAndAccuracyRating",
+      "id": "LocalIncreasedPhysicalDamagePercentAndAccuracyRating-伤害物理攻击",
       "isPrefix": true,
       "tags": [
         "伤害",
@@ -844,7 +844,7 @@
     },
     {
       "name": "物理伤害提高 (45—54)%<br>+(98—123) 命中值",
-      "id": "LocalIncreasedPhysicalDamagePercentAndAccuracyRating",
+      "id": "LocalIncreasedPhysicalDamagePercentAndAccuracyRating-伤害物理攻击",
       "isPrefix": true,
       "tags": [
         "伤害",
@@ -856,7 +856,7 @@
     },
     {
       "name": "物理伤害提高 (55—64)%<br>+(124—149) 命中值",
-      "id": "LocalIncreasedPhysicalDamagePercentAndAccuracyRating",
+      "id": "LocalIncreasedPhysicalDamagePercentAndAccuracyRating-伤害物理攻击",
       "isPrefix": true,
       "tags": [
         "伤害",
@@ -868,7 +868,7 @@
     },
     {
       "name": "物理伤害提高 (65—74)%<br>+(150—174) 命中值",
-      "id": "LocalIncreasedPhysicalDamagePercentAndAccuracyRating",
+      "id": "LocalIncreasedPhysicalDamagePercentAndAccuracyRating-伤害物理攻击",
       "isPrefix": true,
       "tags": [
         "伤害",
@@ -880,7 +880,7 @@
     },
     {
       "name": "物理伤害提高 (75—79)%<br>+(175—200) 命中值",
-      "id": "LocalIncreasedPhysicalDamagePercentAndAccuracyRating",
+      "id": "LocalIncreasedPhysicalDamagePercentAndAccuracyRating-伤害物理攻击",
       "isPrefix": true,
       "tags": [
         "伤害",
@@ -892,7 +892,7 @@
     },
     {
       "name": "所有近战技能等级 +1",
-      "id": "IncreaseSocketedGemLevel",
+      "id": "IncreaseSocketedGemLevel-攻击",
       "isPrefix": false,
       "tags": [
         "攻击"
@@ -902,7 +902,7 @@
     },
     {
       "name": "所有近战技能等级 +2",
-      "id": "IncreaseSocketedGemLevel",
+      "id": "IncreaseSocketedGemLevel-攻击",
       "isPrefix": false,
       "tags": [
         "攻击"
@@ -912,7 +912,7 @@
     },
     {
       "name": "所有近战技能等级 +3",
-      "id": "IncreaseSocketedGemLevel",
+      "id": "IncreaseSocketedGemLevel-攻击",
       "isPrefix": false,
       "tags": [
         "攻击"
@@ -922,7 +922,7 @@
     },
     {
       "name": "所有近战技能等级 +4",
-      "id": "IncreaseSocketedGemLevel",
+      "id": "IncreaseSocketedGemLevel-攻击",
       "isPrefix": false,
       "tags": [
         "攻击"
@@ -932,7 +932,7 @@
     },
     {
       "name": "物理伤害的 (6—6.9)% 转化为生命偷取",
-      "id": "LifeLeech",
+      "id": "LifeLeech-生命物理攻击",
       "isPrefix": false,
       "tags": [
         "生命",
@@ -944,7 +944,7 @@
     },
     {
       "name": "物理伤害的 (7—7.9)% 转化为生命偷取",
-      "id": "LifeLeech",
+      "id": "LifeLeech-生命物理攻击",
       "isPrefix": false,
       "tags": [
         "生命",
@@ -956,7 +956,7 @@
     },
     {
       "name": "物理伤害的 (8—8.9)% 转化为生命偷取",
-      "id": "LifeLeech",
+      "id": "LifeLeech-生命物理攻击",
       "isPrefix": false,
       "tags": [
         "生命",
@@ -968,7 +968,7 @@
     },
     {
       "name": "物理伤害的 (9—9.9)% 转化为生命偷取",
-      "id": "LifeLeech",
+      "id": "LifeLeech-生命物理攻击",
       "isPrefix": false,
       "tags": [
         "生命",
@@ -980,7 +980,7 @@
     },
     {
       "name": "物理伤害的 (5—5.9)% 转化为魔力偷取",
-      "id": "ManaLeech",
+      "id": "ManaLeech-魔力物理攻击",
       "isPrefix": false,
       "tags": [
         "魔力",
@@ -992,7 +992,7 @@
     },
     {
       "name": "物理伤害的 (6—6.9)% 转化为魔力偷取",
-      "id": "ManaLeech",
+      "id": "ManaLeech-魔力物理攻击",
       "isPrefix": false,
       "tags": [
         "魔力",
@@ -1004,7 +1004,7 @@
     },
     {
       "name": "物理伤害的 (7—7.9)% 转化为魔力偷取",
-      "id": "ManaLeech",
+      "id": "ManaLeech-魔力物理攻击",
       "isPrefix": false,
       "tags": [
         "魔力",
@@ -1016,7 +1016,7 @@
     },
     {
       "name": "物理伤害的 (8—8.9)% 转化为魔力偷取",
-      "id": "ManaLeech",
+      "id": "ManaLeech-魔力物理攻击",
       "isPrefix": false,
       "tags": [
         "魔力",
@@ -1028,7 +1028,7 @@
     },
     {
       "name": "每击败一名敌人获得 (4—6) 点生命",
-      "id": "LifeGainedFromEnemyDeath",
+      "id": "LifeGainedFromEnemyDeath-生命",
       "isPrefix": false,
       "tags": [
         "生命"
@@ -1038,7 +1038,7 @@
     },
     {
       "name": "每击败一名敌人获得 (7—9) 点生命",
-      "id": "LifeGainedFromEnemyDeath",
+      "id": "LifeGainedFromEnemyDeath-生命",
       "isPrefix": false,
       "tags": [
         "生命"
@@ -1048,7 +1048,7 @@
     },
     {
       "name": "每击败一名敌人获得 (10—18) 点生命",
-      "id": "LifeGainedFromEnemyDeath",
+      "id": "LifeGainedFromEnemyDeath-生命",
       "isPrefix": false,
       "tags": [
         "生命"
@@ -1058,7 +1058,7 @@
     },
     {
       "name": "每击败一名敌人获得 (19—28) 点生命",
-      "id": "LifeGainedFromEnemyDeath",
+      "id": "LifeGainedFromEnemyDeath-生命",
       "isPrefix": false,
       "tags": [
         "生命"
@@ -1068,7 +1068,7 @@
     },
     {
       "name": "每击败一名敌人获得 (29—40) 点生命",
-      "id": "LifeGainedFromEnemyDeath",
+      "id": "LifeGainedFromEnemyDeath-生命",
       "isPrefix": false,
       "tags": [
         "生命"
@@ -1078,7 +1078,7 @@
     },
     {
       "name": "每击败一名敌人获得 (41—53) 点生命",
-      "id": "LifeGainedFromEnemyDeath",
+      "id": "LifeGainedFromEnemyDeath-生命",
       "isPrefix": false,
       "tags": [
         "生命"
@@ -1088,7 +1088,7 @@
     },
     {
       "name": "每击败一名敌人获得 (54—68) 点生命",
-      "id": "LifeGainedFromEnemyDeath",
+      "id": "LifeGainedFromEnemyDeath-生命",
       "isPrefix": false,
       "tags": [
         "生命"
@@ -1098,7 +1098,7 @@
     },
     {
       "name": "每击败一名敌人获得 (69—84) 点生命",
-      "id": "LifeGainedFromEnemyDeath",
+      "id": "LifeGainedFromEnemyDeath-生命",
       "isPrefix": false,
       "tags": [
         "生命"
@@ -1108,7 +1108,7 @@
     },
     {
       "name": "每击败一名敌人获得 (2—3) 点魔力",
-      "id": "ManaGainedFromEnemyDeath",
+      "id": "ManaGainedFromEnemyDeath-魔力",
       "isPrefix": false,
       "tags": [
         "魔力"
@@ -1118,7 +1118,7 @@
     },
     {
       "name": "每击败一名敌人获得 (4—5) 点魔力",
-      "id": "ManaGainedFromEnemyDeath",
+      "id": "ManaGainedFromEnemyDeath-魔力",
       "isPrefix": false,
       "tags": [
         "魔力"
@@ -1128,7 +1128,7 @@
     },
     {
       "name": "每击败一名敌人获得 (6—9) 点魔力",
-      "id": "ManaGainedFromEnemyDeath",
+      "id": "ManaGainedFromEnemyDeath-魔力",
       "isPrefix": false,
       "tags": [
         "魔力"
@@ -1138,7 +1138,7 @@
     },
     {
       "name": "每击败一名敌人获得 (10—14) 点魔力",
-      "id": "ManaGainedFromEnemyDeath",
+      "id": "ManaGainedFromEnemyDeath-魔力",
       "isPrefix": false,
       "tags": [
         "魔力"
@@ -1148,7 +1148,7 @@
     },
     {
       "name": "每击败一名敌人获得 (15—20) 点魔力",
-      "id": "ManaGainedFromEnemyDeath",
+      "id": "ManaGainedFromEnemyDeath-魔力",
       "isPrefix": false,
       "tags": [
         "魔力"
@@ -1158,7 +1158,7 @@
     },
     {
       "name": "每击败一名敌人获得 (21—27) 点魔力",
-      "id": "ManaGainedFromEnemyDeath",
+      "id": "ManaGainedFromEnemyDeath-魔力",
       "isPrefix": false,
       "tags": [
         "魔力"
@@ -1168,7 +1168,7 @@
     },
     {
       "name": "每击败一名敌人获得 (28—35) 点魔力",
-      "id": "ManaGainedFromEnemyDeath",
+      "id": "ManaGainedFromEnemyDeath-魔力",
       "isPrefix": false,
       "tags": [
         "魔力"
@@ -1178,7 +1178,7 @@
     },
     {
       "name": "每击败一名敌人获得 (36—45) 点魔力",
-      "id": "ManaGainedFromEnemyDeath",
+      "id": "ManaGainedFromEnemyDeath-魔力",
       "isPrefix": false,
       "tags": [
         "魔力"
@@ -1188,7 +1188,7 @@
     },
     {
       "name": "每击中一名敌人获得 2 点生命",
-      "id": "LifeGainPerTarget",
+      "id": "LifeGainPerTarget-生命攻击",
       "isPrefix": false,
       "tags": [
         "生命",
@@ -1199,7 +1199,7 @@
     },
     {
       "name": "每击中一名敌人获得 3 点生命",
-      "id": "LifeGainPerTarget",
+      "id": "LifeGainPerTarget-生命攻击",
       "isPrefix": false,
       "tags": [
         "生命",
@@ -1210,7 +1210,7 @@
     },
     {
       "name": "每击中一名敌人获得 4 点生命",
-      "id": "LifeGainPerTarget",
+      "id": "LifeGainPerTarget-生命攻击",
       "isPrefix": false,
       "tags": [
         "生命",
@@ -1221,7 +1221,7 @@
     },
     {
       "name": "每击中一名敌人获得 5 点生命",
-      "id": "LifeGainPerTarget",
+      "id": "LifeGainPerTarget-生命攻击",
       "isPrefix": false,
       "tags": [
         "生命",
@@ -1232,7 +1232,7 @@
     },
     {
       "name": "攻击速度提高 (5—7)%",
-      "id": "IncreasedAttackSpeed",
+      "id": "IncreasedAttackSpeed-攻击速度",
       "isPrefix": false,
       "tags": [
         "攻击",
@@ -1243,7 +1243,7 @@
     },
     {
       "name": "攻击速度提高 (8—10)%",
-      "id": "IncreasedAttackSpeed",
+      "id": "IncreasedAttackSpeed-攻击速度",
       "isPrefix": false,
       "tags": [
         "攻击",
@@ -1254,7 +1254,7 @@
     },
     {
       "name": "攻击速度提高 (11—13)%",
-      "id": "IncreasedAttackSpeed",
+      "id": "IncreasedAttackSpeed-攻击速度",
       "isPrefix": false,
       "tags": [
         "攻击",
@@ -1265,7 +1265,7 @@
     },
     {
       "name": "攻击速度提高 (14—16)%",
-      "id": "IncreasedAttackSpeed",
+      "id": "IncreasedAttackSpeed-攻击速度",
       "isPrefix": false,
       "tags": [
         "攻击",
@@ -1276,7 +1276,7 @@
     },
     {
       "name": "攻击速度提高 (17—19)%",
-      "id": "IncreasedAttackSpeed",
+      "id": "IncreasedAttackSpeed-攻击速度",
       "isPrefix": false,
       "tags": [
         "攻击",
@@ -1287,7 +1287,7 @@
     },
     {
       "name": "攻击速度提高 (20—22)%",
-      "id": "IncreasedAttackSpeed",
+      "id": "IncreasedAttackSpeed-攻击速度",
       "isPrefix": false,
       "tags": [
         "攻击",
@@ -1298,7 +1298,7 @@
     },
     {
       "name": "攻击速度提高 (23—25)%",
-      "id": "IncreasedAttackSpeed",
+      "id": "IncreasedAttackSpeed-攻击速度",
       "isPrefix": false,
       "tags": [
         "攻击",
@@ -1309,7 +1309,7 @@
     },
     {
       "name": "攻击速度提高 (26—28)%",
-      "id": "IncreasedAttackSpeed",
+      "id": "IncreasedAttackSpeed-攻击速度",
       "isPrefix": false,
       "tags": [
         "攻击",
@@ -1320,7 +1320,7 @@
     },
     {
       "name": "+(11—32) 命中值",
-      "id": "IncreasedAccuracy",
+      "id": "IncreasedAccuracy-攻击",
       "isPrefix": true,
       "tags": [
         "攻击"
@@ -1330,7 +1330,7 @@
     },
     {
       "name": "+(33—60) 命中值",
-      "id": "IncreasedAccuracy",
+      "id": "IncreasedAccuracy-攻击",
       "isPrefix": true,
       "tags": [
         "攻击"
@@ -1340,7 +1340,7 @@
     },
     {
       "name": "+(61—84) 命中值",
-      "id": "IncreasedAccuracy",
+      "id": "IncreasedAccuracy-攻击",
       "isPrefix": true,
       "tags": [
         "攻击"
@@ -1350,7 +1350,7 @@
     },
     {
       "name": "+(85—123) 命中值",
-      "id": "IncreasedAccuracy",
+      "id": "IncreasedAccuracy-攻击",
       "isPrefix": true,
       "tags": [
         "攻击"
@@ -1360,7 +1360,7 @@
     },
     {
       "name": "+(124—167) 命中值",
-      "id": "IncreasedAccuracy",
+      "id": "IncreasedAccuracy-攻击",
       "isPrefix": true,
       "tags": [
         "攻击"
@@ -1370,7 +1370,7 @@
     },
     {
       "name": "+(168—236) 命中值",
-      "id": "IncreasedAccuracy",
+      "id": "IncreasedAccuracy-攻击",
       "isPrefix": true,
       "tags": [
         "攻击"
@@ -1380,7 +1380,7 @@
     },
     {
       "name": "+(237—346) 命中值",
-      "id": "IncreasedAccuracy",
+      "id": "IncreasedAccuracy-攻击",
       "isPrefix": true,
       "tags": [
         "攻击"
@@ -1390,7 +1390,7 @@
     },
     {
       "name": "+(347—450) 命中值",
-      "id": "IncreasedAccuracy",
+      "id": "IncreasedAccuracy-攻击",
       "isPrefix": true,
       "tags": [
         "攻击"
@@ -1400,7 +1400,7 @@
     },
     {
       "name": "+(451—550) 命中值",
-      "id": "IncreasedAccuracy",
+      "id": "IncreasedAccuracy-攻击",
       "isPrefix": true,
       "tags": [
         "攻击"
@@ -1410,7 +1410,7 @@
     },
     {
       "name": "暴击几率 +(1.01—1.5)%",
-      "id": "CriticalStrikeChanceIncrease",
+      "id": "CriticalStrikeChanceIncrease-攻击暴击",
       "isPrefix": false,
       "tags": [
         "攻击",
@@ -1421,7 +1421,7 @@
     },
     {
       "name": "暴击几率 +(1.51—2.1)%",
-      "id": "CriticalStrikeChanceIncrease",
+      "id": "CriticalStrikeChanceIncrease-攻击暴击",
       "isPrefix": false,
       "tags": [
         "攻击",
@@ -1432,7 +1432,7 @@
     },
     {
       "name": "暴击几率 +(2.11—2.7)%",
-      "id": "CriticalStrikeChanceIncrease",
+      "id": "CriticalStrikeChanceIncrease-攻击暴击",
       "isPrefix": false,
       "tags": [
         "攻击",
@@ -1443,7 +1443,7 @@
     },
     {
       "name": "暴击几率 +(3.11—3.8)%",
-      "id": "CriticalStrikeChanceIncrease",
+      "id": "CriticalStrikeChanceIncrease-攻击暴击",
       "isPrefix": false,
       "tags": [
         "攻击",
@@ -1454,7 +1454,7 @@
     },
     {
       "name": "暴击几率 +(3.81—4.4)%",
-      "id": "CriticalStrikeChanceIncrease",
+      "id": "CriticalStrikeChanceIncrease-攻击暴击",
       "isPrefix": false,
       "tags": [
         "攻击",
@@ -1465,7 +1465,7 @@
     },
     {
       "name": "暴击几率 +(4.41—5)%",
-      "id": "CriticalStrikeChanceIncrease",
+      "id": "CriticalStrikeChanceIncrease-攻击暴击",
       "isPrefix": false,
       "tags": [
         "攻击",
@@ -1476,7 +1476,7 @@
     },
     {
       "name": "+(10—11)% 暴击伤害加成",
-      "id": "CriticalStrikeMultiplier",
+      "id": "CriticalStrikeMultiplier-伤害攻击暴击",
       "isPrefix": false,
       "tags": [
         "伤害",
@@ -1488,7 +1488,7 @@
     },
     {
       "name": "+(12—13)% 暴击伤害加成",
-      "id": "CriticalStrikeMultiplier",
+      "id": "CriticalStrikeMultiplier-伤害攻击暴击",
       "isPrefix": false,
       "tags": [
         "伤害",
@@ -1500,7 +1500,7 @@
     },
     {
       "name": "+(14—16)% 暴击伤害加成",
-      "id": "CriticalStrikeMultiplier",
+      "id": "CriticalStrikeMultiplier-伤害攻击暴击",
       "isPrefix": false,
       "tags": [
         "伤害",
@@ -1512,7 +1512,7 @@
     },
     {
       "name": "+(17—19)% 暴击伤害加成",
-      "id": "CriticalStrikeMultiplier",
+      "id": "CriticalStrikeMultiplier-伤害攻击暴击",
       "isPrefix": false,
       "tags": [
         "伤害",
@@ -1524,7 +1524,7 @@
     },
     {
       "name": "+(20—22)% 暴击伤害加成",
-      "id": "CriticalStrikeMultiplier",
+      "id": "CriticalStrikeMultiplier-伤害攻击暴击",
       "isPrefix": false,
       "tags": [
         "伤害",
@@ -1536,7 +1536,7 @@
     },
     {
       "name": "+(23—25)% 暴击伤害加成",
-      "id": "CriticalStrikeMultiplier",
+      "id": "CriticalStrikeMultiplier-伤害攻击暴击",
       "isPrefix": false,
       "tags": [
         "伤害",
@@ -1548,7 +1548,7 @@
     },
     {
       "name": "+(10—20) 命中值<br>照亮范围提高 5%",
-      "id": "LightRadiusAndAccuracy",
+      "id": "LightRadiusAndAccuracy-攻击",
       "isPrefix": false,
       "tags": [
         "攻击"
@@ -1558,7 +1558,7 @@
     },
     {
       "name": "+(21—40) 命中值<br>照亮范围提高 10%",
-      "id": "LightRadiusAndAccuracy",
+      "id": "LightRadiusAndAccuracy-攻击",
       "isPrefix": false,
       "tags": [
         "攻击"
@@ -1568,7 +1568,7 @@
     },
     {
       "name": "+(41—60) 命中值<br>照亮范围提高 15%",
-      "id": "LightRadiusAndAccuracy",
+      "id": "LightRadiusAndAccuracy-攻击",
       "isPrefix": false,
       "tags": [
         "攻击"
@@ -1578,7 +1578,7 @@
     },
     {
       "name": "晕眩持续时间提高 (11—13)%",
-      "id": "StunDurationIncreasePercent",
+      "id": "StunDurationIncreasePercent-",
       "isPrefix": false,
       "tags": [],
       "dropChance": 1,
@@ -1586,7 +1586,7 @@
     },
     {
       "name": "晕眩持续时间提高 (14—16)%",
-      "id": "StunDurationIncreasePercent",
+      "id": "StunDurationIncreasePercent-",
       "isPrefix": false,
       "tags": [],
       "dropChance": 1,
@@ -1594,7 +1594,7 @@
     },
     {
       "name": "晕眩持续时间提高 (17—19)%",
-      "id": "StunDurationIncreasePercent",
+      "id": "StunDurationIncreasePercent-",
       "isPrefix": false,
       "tags": [],
       "dropChance": 1,
@@ -1602,7 +1602,7 @@
     },
     {
       "name": "晕眩持续时间提高 (20—22)%",
-      "id": "StunDurationIncreasePercent",
+      "id": "StunDurationIncreasePercent-",
       "isPrefix": false,
       "tags": [],
       "dropChance": 1,
@@ -1610,7 +1610,7 @@
     },
     {
       "name": "晕眩持续时间提高 (23—26)%",
-      "id": "StunDurationIncreasePercent",
+      "id": "StunDurationIncreasePercent-",
       "isPrefix": false,
       "tags": [],
       "dropChance": 1,
@@ -1618,7 +1618,7 @@
     },
     {
       "name": "晕眩持续时间提高 (27—30)%",
-      "id": "StunDurationIncreasePercent",
+      "id": "StunDurationIncreasePercent-",
       "isPrefix": false,
       "tags": [],
       "dropChance": 1,
@@ -1626,7 +1626,7 @@
     },
     {
       "name": "造成的晕眩积蓄值提高 (21—30)%",
-      "id": "StunDamageIncrease",
+      "id": "StunDamageIncrease-",
       "isPrefix": false,
       "tags": [],
       "dropChance": 1,
@@ -1634,7 +1634,7 @@
     },
     {
       "name": "造成的晕眩积蓄值提高 (31—40)%",
-      "id": "StunDamageIncrease",
+      "id": "StunDamageIncrease-",
       "isPrefix": false,
       "tags": [],
       "dropChance": 1,
@@ -1642,7 +1642,7 @@
     },
     {
       "name": "造成的晕眩积蓄值提高 (41—50)%",
-      "id": "StunDamageIncrease",
+      "id": "StunDamageIncrease-",
       "isPrefix": false,
       "tags": [],
       "dropChance": 1,
@@ -1650,7 +1650,7 @@
     },
     {
       "name": "造成的晕眩积蓄值提高 (51—60)%",
-      "id": "StunDamageIncrease",
+      "id": "StunDamageIncrease-",
       "isPrefix": false,
       "tags": [],
       "dropChance": 1,
@@ -1658,7 +1658,7 @@
     },
     {
       "name": "造成的晕眩积蓄值提高 (61—70)%",
-      "id": "StunDamageIncrease",
+      "id": "StunDamageIncrease-",
       "isPrefix": false,
       "tags": [],
       "dropChance": 1,
@@ -1666,7 +1666,7 @@
     },
     {
       "name": "造成的晕眩积蓄值提高 (71—80)%",
-      "id": "StunDamageIncrease",
+      "id": "StunDamageIncrease-",
       "isPrefix": false,
       "tags": [],
       "dropChance": 1,
@@ -1674,7 +1674,7 @@
     },
     {
       "name": "攻击技能的元素伤害提高 (19—35)%",
-      "id": "IncreasedWeaponElementalDamagePercent",
+      "id": "IncreasedWeaponElementalDamagePercent-伤害元素火焰冰霜闪电",
       "isPrefix": true,
       "tags": [
         "伤害",
@@ -1688,7 +1688,7 @@
     },
     {
       "name": "攻击技能的元素伤害提高 (36—52)%",
-      "id": "IncreasedWeaponElementalDamagePercent",
+      "id": "IncreasedWeaponElementalDamagePercent-伤害元素火焰冰霜闪电",
       "isPrefix": true,
       "tags": [
         "伤害",
@@ -1702,7 +1702,7 @@
     },
     {
       "name": "攻击技能的元素伤害提高 (53—62)%",
-      "id": "IncreasedWeaponElementalDamagePercent",
+      "id": "IncreasedWeaponElementalDamagePercent-伤害元素火焰冰霜闪电",
       "isPrefix": true,
       "tags": [
         "伤害",
@@ -1716,7 +1716,7 @@
     },
     {
       "name": "攻击技能的元素伤害提高 (63—72)%",
-      "id": "IncreasedWeaponElementalDamagePercent",
+      "id": "IncreasedWeaponElementalDamagePercent-伤害元素火焰冰霜闪电",
       "isPrefix": true,
       "tags": [
         "伤害",
@@ -1730,7 +1730,7 @@
     },
     {
       "name": "攻击技能的元素伤害提高 (73—86)%",
-      "id": "IncreasedWeaponElementalDamagePercent",
+      "id": "IncreasedWeaponElementalDamagePercent-伤害元素火焰冰霜闪电",
       "isPrefix": true,
       "tags": [
         "伤害",
@@ -1744,7 +1744,7 @@
     },
     {
       "name": "攻击技能的元素伤害提高 (87—100)%",
-      "id": "IncreasedWeaponElementalDamagePercent",
+      "id": "IncreasedWeaponElementalDamagePercent-伤害元素火焰冰霜闪电",
       "isPrefix": true,
       "tags": [
         "伤害",

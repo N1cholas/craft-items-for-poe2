@@ -69,12 +69,14 @@ async function transformAllRawDataFiles() {
   }
 }
 
+// todo: 对原始数据进行筛查id是否唯一
 function createAffix(rawAffix: RawAffix): Affix {
+  const tags = rawAffix.mod_no.map((rawTag) => handleHTMLString(rawTag))
   return {
     name: handleHTMLString(rawAffix.str),
-    id: rawAffix.ModFamilyList?.[0] || '',
+    id: `${rawAffix.ModFamilyList?.[0] || 'no ModFamilyList'}-${tags.join('')}`,
     isPrefix: rawAffix.ModGenerationTypeID === '1',
-    tags: rawAffix.mod_no.map((rawTag) => handleHTMLString(rawTag)),
+    tags,
     dropChance: Number(rawAffix.DropChance),
     level: Number(rawAffix.Level),
   }

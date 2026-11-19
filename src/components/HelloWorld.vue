@@ -16,42 +16,15 @@
       </option>
     </select>
     <h2>affixes pool</h2>
-    <AffixList />
+    <SelectAffixesList />
   </div>
 </template>
 
 <script setup lang="ts">
 import { useItemStore } from '@/stores/item.ts'
-import { computed } from 'vue'
-import AffixList from '@/components/AffixList.vue'
+import SelectAffixesList from '@/components/SelectAffixesList.vue'
 
 const itemStore = useItemStore()
-const affixesOptions = computed(() => {
-  return itemStore.itemAffixesPool
-})
 </script>
 
-<style scoped>
-h1 {
-  font-weight: 500;
-  font-size: 2.6rem;
-  position: relative;
-  top: -10px;
-}
-
-h3 {
-  font-size: 1.2rem;
-}
-
-.greetings h1,
-.greetings h3 {
-  text-align: center;
-}
-
-@media (min-width: 1024px) {
-  .greetings h1,
-  .greetings h3 {
-    text-align: left;
-  }
-}
-</style>
+<style scoped></style>

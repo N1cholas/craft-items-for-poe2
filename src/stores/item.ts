@@ -1,7 +1,6 @@
 import { defineStore } from 'pinia'
 import { computed, ref } from 'vue'
 import { useDataStore } from '@/stores/data.ts'
-import { assignRankById } from '@/utils/assignRankById.ts'
 
 export type ItemType = 'bow' | 'daggers' | 'quarterstaves' | 'wand'
 export type ItemRarity = 'normal' | 'magic' | 'rare'
@@ -11,11 +10,7 @@ export type Item = {
   type: ItemType
   level: number
   rarity: ItemRarity
-  affixes: {
-    id: string
-    level: number
-    tier: number
-  }[]
+  affixesMap: Map<string, number>
 }
 
 const initItem: Item = {
@@ -23,7 +18,7 @@ const initItem: Item = {
   type: 'bow',
   level: 82,
   rarity: 'rare',
-  affixes: [],
+  affixesMap: new Map<string, number>(),
 }
 
 const itemTypeOptionLabelMap: Record<ItemType, string> = {
@@ -50,9 +45,15 @@ export const useItemStore = defineStore('item', () => {
   )
 
   const dataStore = useDataStore()
-  const itemAffixesPool = computed(() =>
-    assignRankById(dataStore.dataPool[item.value.type], 'id', 'level', 'tier'),
-  )
+  const itemAffixesPool = computed(() => dataStore.dataPool[item.value.type])
 
-  return { item, itemTypeOptions, itemRarityOptions, itemAffixesPool }
+  const addAffix = (id: string, tier: number) => {
+    item.value.affixesMap.set(id, tier)
+  }
+
+  const removeAffix = (id: string) => {
+    item.value.affixesMap.delete(id)
+  }
+
+  return { item, itemTypeOptions, itemRarityOptions, itemAffixesPool, addAffix, removeAffix }
 })
