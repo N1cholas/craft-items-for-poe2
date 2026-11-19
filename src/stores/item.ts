@@ -56,7 +56,9 @@ export const useItemStore = defineStore('item', () => {
   )
 
   const dataStore = useDataStore()
-  const itemAffixesPool = computed(() => dataStore.dataPool[item.value.type])
+  const itemAffixesPool = computed(() => {
+    return dataStore.dataPool[item.value.type].filter((affix) => affix.level <= item.value.level)
+  })
 
   const addAffix = (id: string, affixStatus: AffixStatus) => {
     item.value.affixesMap.set(id, affixStatus)

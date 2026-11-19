@@ -10,8 +10,10 @@
             alt="logo"
           />
         </template>
-        <t-menu-item @click="goToHome" value="home">Home</t-menu-item>
-        <t-menu-item @click="goToWorkbench" value="workbench">Workbench </t-menu-item>
+        <t-menu-item @click="() => goToPage(ROUTE_PATH.HOME)" value="home">Home</t-menu-item>
+        <t-menu-item @click="() => goToPage(ROUTE_PATH.WORKBENCH)" value="workbench"
+          >Workbench
+        </t-menu-item>
         <template #operations>
           <a href="javascript:"
             ><t-icon class="t-menu__operations-icon" name="notification-filled"
@@ -29,19 +31,21 @@
   </t-layout>
 </template>
 <script setup lang="ts">
-import { ref } from 'vue'
-import router from '@/router'
+import { ref, watch } from 'vue'
+import { useRoute } from 'vue-router'
+import router, { ROUTE_PATH } from '@/router'
 
+const route = useRoute()
+watch(
+  () => route.path,
+  (newPath) => {
+    activeMenu.value = newPath.replace('/', '')
+  },
+)
 const activeMenu = ref('home')
 const handleActiveMenu = (val: string) => {
-  console.log(val)
   activeMenu.value = val
 }
-const goToHome = () => {
-  router.push('home')
-}
-const goToWorkbench = () => {
-  router.push('workbench')
-}
+const goToPage = (path: ROUTE_PATH) => router.push(path)
 </script>
 <style scoped></style>

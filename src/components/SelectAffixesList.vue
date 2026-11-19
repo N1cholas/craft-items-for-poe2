@@ -1,10 +1,5 @@
 <template>
   <t-space direction="vertical">
-    <t-list size="small">
-      <t-list-item v-for="selectAffix in selectedAffixes" :key="selectAffix.id + selectAffix.level">
-        <t-list-item-meta :description="`${selectAffix.name} T${selectAffix.level}`" />
-      </t-list-item>
-    </t-list>
     <t-collapse expand-mutex @change="handlePanelChange">
       <t-collapse-panel
         v-for="affixOption in itemAffixesOptions"
@@ -51,13 +46,6 @@ const handlePanelChange: CollapseProps['onChange'] = (val) => {
 }
 const affixesWithTierOptions = computed(() => {
   return itemStore.itemAffixesPool.filter((affix) => curAffixIDs.value.includes(affix.id))
-})
-
-const selectedAffixes = computed(() => {
-  return itemStore.itemAffixesPool.filter((affixInPool) => {
-    if (!itemStore.item.affixesMap.has(affixInPool.id)) return false
-    return affixInPool.level === itemStore.item.affixesMap.get(affixInPool.id)?.level
-  })
 })
 </script>
 <style scoped></style>
