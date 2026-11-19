@@ -1,0 +1,2084 @@
+{
+  "normal": [
+    {
+      "name": "+(5—8) 智慧",
+      "id": "Intelligence",
+      "isPrefix": false,
+      "tags": [
+        "属性"
+      ],
+      "dropChance": 1000,
+      "level": 1
+    },
+    {
+      "name": "+(9—12) 智慧",
+      "id": "Intelligence",
+      "isPrefix": false,
+      "tags": [
+        "属性"
+      ],
+      "dropChance": 1000,
+      "level": 11
+    },
+    {
+      "name": "+(13—16) 智慧",
+      "id": "Intelligence",
+      "isPrefix": false,
+      "tags": [
+        "属性"
+      ],
+      "dropChance": 1000,
+      "level": 22
+    },
+    {
+      "name": "+(17—20) 智慧",
+      "id": "Intelligence",
+      "isPrefix": false,
+      "tags": [
+        "属性"
+      ],
+      "dropChance": 1000,
+      "level": 33
+    },
+    {
+      "name": "+(21—24) 智慧",
+      "id": "Intelligence",
+      "isPrefix": false,
+      "tags": [
+        "属性"
+      ],
+      "dropChance": 1000,
+      "level": 44
+    },
+    {
+      "name": "+(25—27) 智慧",
+      "id": "Intelligence",
+      "isPrefix": false,
+      "tags": [
+        "属性"
+      ],
+      "dropChance": 1000,
+      "level": 55
+    },
+    {
+      "name": "+(28—30) 智慧",
+      "id": "Intelligence",
+      "isPrefix": false,
+      "tags": [
+        "属性"
+      ],
+      "dropChance": 1000,
+      "level": 66
+    },
+    {
+      "name": "+(31—33) 智慧",
+      "id": "Intelligence",
+      "isPrefix": false,
+      "tags": [
+        "属性"
+      ],
+      "dropChance": 1000,
+      "level": 74
+    },
+    {
+      "name": "+(10—14) 魔力上限",
+      "id": "IncreasedMana",
+      "isPrefix": true,
+      "tags": [
+        "魔力"
+      ],
+      "dropChance": 1000,
+      "level": 1
+    },
+    {
+      "name": "+(15—24) 魔力上限",
+      "id": "IncreasedMana",
+      "isPrefix": true,
+      "tags": [
+        "魔力"
+      ],
+      "dropChance": 1000,
+      "level": 6
+    },
+    {
+      "name": "+(25—34) 魔力上限",
+      "id": "IncreasedMana",
+      "isPrefix": true,
+      "tags": [
+        "魔力"
+      ],
+      "dropChance": 1000,
+      "level": 16
+    },
+    {
+      "name": "+(35—54) 魔力上限",
+      "id": "IncreasedMana",
+      "isPrefix": true,
+      "tags": [
+        "魔力"
+      ],
+      "dropChance": 1000,
+      "level": 25
+    },
+    {
+      "name": "+(55—64) 魔力上限",
+      "id": "IncreasedMana",
+      "isPrefix": true,
+      "tags": [
+        "魔力"
+      ],
+      "dropChance": 1000,
+      "level": 33
+    },
+    {
+      "name": "+(65—79) 魔力上限",
+      "id": "IncreasedMana",
+      "isPrefix": true,
+      "tags": [
+        "魔力"
+      ],
+      "dropChance": 1000,
+      "level": 38
+    },
+    {
+      "name": "+(80—89) 魔力上限",
+      "id": "IncreasedMana",
+      "isPrefix": true,
+      "tags": [
+        "魔力"
+      ],
+      "dropChance": 1000,
+      "level": 46
+    },
+    {
+      "name": "+(90—104) 魔力上限",
+      "id": "IncreasedMana",
+      "isPrefix": true,
+      "tags": [
+        "魔力"
+      ],
+      "dropChance": 1000,
+      "level": 54
+    },
+    {
+      "name": "+(105—124) 魔力上限",
+      "id": "IncreasedMana",
+      "isPrefix": true,
+      "tags": [
+        "魔力"
+      ],
+      "dropChance": 1000,
+      "level": 60
+    },
+    {
+      "name": "+(125—149) 魔力上限",
+      "id": "IncreasedMana",
+      "isPrefix": true,
+      "tags": [
+        "魔力"
+      ],
+      "dropChance": 1000,
+      "level": 65
+    },
+    {
+      "name": "+(150—164) 魔力上限",
+      "id": "IncreasedMana",
+      "isPrefix": true,
+      "tags": [
+        "魔力"
+      ],
+      "dropChance": 1000,
+      "level": 70
+    },
+    {
+      "name": "属性需求降低 15%",
+      "id": "LocalAttributeRequirements",
+      "isPrefix": false,
+      "tags": [],
+      "dropChance": 1000,
+      "level": 24
+    },
+    {
+      "name": "属性需求降低 20%",
+      "id": "LocalAttributeRequirements",
+      "isPrefix": false,
+      "tags": [],
+      "dropChance": 1000,
+      "level": 32
+    },
+    {
+      "name": "属性需求降低 25%",
+      "id": "LocalAttributeRequirements",
+      "isPrefix": false,
+      "tags": [],
+      "dropChance": 1000,
+      "level": 40
+    },
+    {
+      "name": "属性需求降低 30%",
+      "id": "LocalAttributeRequirements",
+      "isPrefix": false,
+      "tags": [],
+      "dropChance": 1000,
+      "level": 52
+    },
+    {
+      "name": "属性需求降低 35%",
+      "id": "LocalAttributeRequirements",
+      "isPrefix": false,
+      "tags": [],
+      "dropChance": 1000,
+      "level": 60
+    },
+    {
+      "name": "法术伤害提高 (25—34)%",
+      "id": "WeaponCasterDamagePrefix",
+      "isPrefix": true,
+      "tags": [
+        "伤害",
+        "施法"
+      ],
+      "dropChance": 1000,
+      "level": 1
+    },
+    {
+      "name": "法术伤害提高 (35—44)%",
+      "id": "WeaponCasterDamagePrefix",
+      "isPrefix": true,
+      "tags": [
+        "伤害",
+        "施法"
+      ],
+      "dropChance": 1000,
+      "level": 8
+    },
+    {
+      "name": "法术伤害提高 (45—54)%",
+      "id": "WeaponCasterDamagePrefix",
+      "isPrefix": true,
+      "tags": [
+        "伤害",
+        "施法"
+      ],
+      "dropChance": 1000,
+      "level": 16
+    },
+    {
+      "name": "法术伤害提高 (55—64)%",
+      "id": "WeaponCasterDamagePrefix",
+      "isPrefix": true,
+      "tags": [
+        "伤害",
+        "施法"
+      ],
+      "dropChance": 600,
+      "level": 33
+    },
+    {
+      "name": "法术伤害提高 (65—74)%",
+      "id": "WeaponCasterDamagePrefix",
+      "isPrefix": true,
+      "tags": [
+        "伤害",
+        "施法"
+      ],
+      "dropChance": 400,
+      "level": 46
+    },
+    {
+      "name": "法术伤害提高 (75—89)%",
+      "id": "WeaponCasterDamagePrefix",
+      "isPrefix": true,
+      "tags": [
+        "伤害",
+        "施法"
+      ],
+      "dropChance": 200,
+      "level": 60
+    },
+    {
+      "name": "法术伤害提高 (90—104)%",
+      "id": "WeaponCasterDamagePrefix",
+      "isPrefix": true,
+      "tags": [
+        "伤害",
+        "施法"
+      ],
+      "dropChance": 100,
+      "level": 70
+    },
+    {
+      "name": "法术伤害提高 (105—119)%",
+      "id": "WeaponCasterDamagePrefix",
+      "isPrefix": true,
+      "tags": [
+        "伤害",
+        "施法"
+      ],
+      "dropChance": 50,
+      "level": 80
+    },
+    {
+      "name": "法术伤害提高 (15—19)%<br>+(17—20) 魔力上限",
+      "id": "SpellDamageAndMana",
+      "isPrefix": true,
+      "tags": [
+        "魔力",
+        "伤害",
+        "施法"
+      ],
+      "dropChance": 1000,
+      "level": 2
+    },
+    {
+      "name": "法术伤害提高 (20—24)%<br>+(21—24) 魔力上限",
+      "id": "SpellDamageAndMana",
+      "isPrefix": true,
+      "tags": [
+        "魔力",
+        "伤害",
+        "施法"
+      ],
+      "dropChance": 1000,
+      "level": 11
+    },
+    {
+      "name": "法术伤害提高 (25—29)%<br>+(25—28) 魔力上限",
+      "id": "SpellDamageAndMana",
+      "isPrefix": true,
+      "tags": [
+        "魔力",
+        "伤害",
+        "施法"
+      ],
+      "dropChance": 1000,
+      "level": 23
+    },
+    {
+      "name": "法术伤害提高 (30—34)%<br>+(29—33) 魔力上限",
+      "id": "SpellDamageAndMana",
+      "isPrefix": true,
+      "tags": [
+        "魔力",
+        "伤害",
+        "施法"
+      ],
+      "dropChance": 600,
+      "level": 38
+    },
+    {
+      "name": "法术伤害提高 (35—39)%<br>+(34—37) 魔力上限",
+      "id": "SpellDamageAndMana",
+      "isPrefix": true,
+      "tags": [
+        "魔力",
+        "伤害",
+        "施法"
+      ],
+      "dropChance": 400,
+      "level": 46
+    },
+    {
+      "name": "法术伤害提高 (40—44)%<br>+(38—41) 魔力上限",
+      "id": "SpellDamageAndMana",
+      "isPrefix": true,
+      "tags": [
+        "魔力",
+        "伤害",
+        "施法"
+      ],
+      "dropChance": 200,
+      "level": 60
+    },
+    {
+      "name": "法术伤害提高 (45—49)%<br>+(42—45) 魔力上限",
+      "id": "SpellDamageAndMana",
+      "isPrefix": true,
+      "tags": [
+        "魔力",
+        "伤害",
+        "施法"
+      ],
+      "dropChance": 100,
+      "level": 80
+    },
+    {
+      "name": "火焰伤害提高 (25—34)%",
+      "id": "WeaponDamageTypePrefix",
+      "isPrefix": true,
+      "tags": [
+        "伤害",
+        "元素",
+        "火焰"
+      ],
+      "dropChance": 500,
+      "level": 2
+    },
+    {
+      "name": "火焰伤害提高 (35—44)%",
+      "id": "WeaponDamageTypePrefix",
+      "isPrefix": true,
+      "tags": [
+        "伤害",
+        "元素",
+        "火焰"
+      ],
+      "dropChance": 500,
+      "level": 8
+    },
+    {
+      "name": "火焰伤害提高 (45—54)%",
+      "id": "WeaponDamageTypePrefix",
+      "isPrefix": true,
+      "tags": [
+        "伤害",
+        "元素",
+        "火焰"
+      ],
+      "dropChance": 500,
+      "level": 16
+    },
+    {
+      "name": "火焰伤害提高 (55—64)%",
+      "id": "WeaponDamageTypePrefix",
+      "isPrefix": true,
+      "tags": [
+        "伤害",
+        "元素",
+        "火焰"
+      ],
+      "dropChance": 400,
+      "level": 33
+    },
+    {
+      "name": "火焰伤害提高 (65—74)%",
+      "id": "WeaponDamageTypePrefix",
+      "isPrefix": true,
+      "tags": [
+        "伤害",
+        "元素",
+        "火焰"
+      ],
+      "dropChance": 300,
+      "level": 46
+    },
+    {
+      "name": "火焰伤害提高 (75—89)%",
+      "id": "WeaponDamageTypePrefix",
+      "isPrefix": true,
+      "tags": [
+        "伤害",
+        "元素",
+        "火焰"
+      ],
+      "dropChance": 200,
+      "level": 60
+    },
+    {
+      "name": "火焰伤害提高 (90—104)%",
+      "id": "WeaponDamageTypePrefix",
+      "isPrefix": true,
+      "tags": [
+        "伤害",
+        "元素",
+        "火焰"
+      ],
+      "dropChance": 100,
+      "level": 70
+    },
+    {
+      "name": "火焰伤害提高 (105—119)%",
+      "id": "WeaponDamageTypePrefix",
+      "isPrefix": true,
+      "tags": [
+        "伤害",
+        "元素",
+        "火焰"
+      ],
+      "dropChance": 50,
+      "level": 81
+    },
+    {
+      "name": "冰霜伤害提高 (25—34)%",
+      "id": "WeaponDamageTypePrefix",
+      "isPrefix": true,
+      "tags": [
+        "伤害",
+        "元素",
+        "冰霜"
+      ],
+      "dropChance": 500,
+      "level": 2
+    },
+    {
+      "name": "冰霜伤害提高 (35—44)%",
+      "id": "WeaponDamageTypePrefix",
+      "isPrefix": true,
+      "tags": [
+        "伤害",
+        "元素",
+        "冰霜"
+      ],
+      "dropChance": 500,
+      "level": 8
+    },
+    {
+      "name": "冰霜伤害提高 (45—54)%",
+      "id": "WeaponDamageTypePrefix",
+      "isPrefix": true,
+      "tags": [
+        "伤害",
+        "元素",
+        "冰霜"
+      ],
+      "dropChance": 500,
+      "level": 16
+    },
+    {
+      "name": "冰霜伤害提高 (55—64)%",
+      "id": "WeaponDamageTypePrefix",
+      "isPrefix": true,
+      "tags": [
+        "伤害",
+        "元素",
+        "冰霜"
+      ],
+      "dropChance": 400,
+      "level": 33
+    },
+    {
+      "name": "冰霜伤害提高 (65—74)%",
+      "id": "WeaponDamageTypePrefix",
+      "isPrefix": true,
+      "tags": [
+        "伤害",
+        "元素",
+        "冰霜"
+      ],
+      "dropChance": 300,
+      "level": 46
+    },
+    {
+      "name": "冰霜伤害提高 (75—89)%",
+      "id": "WeaponDamageTypePrefix",
+      "isPrefix": true,
+      "tags": [
+        "伤害",
+        "元素",
+        "冰霜"
+      ],
+      "dropChance": 200,
+      "level": 60
+    },
+    {
+      "name": "冰霜伤害提高 (90—104)%",
+      "id": "WeaponDamageTypePrefix",
+      "isPrefix": true,
+      "tags": [
+        "伤害",
+        "元素",
+        "冰霜"
+      ],
+      "dropChance": 100,
+      "level": 70
+    },
+    {
+      "name": "冰霜伤害提高 (105—119)%",
+      "id": "WeaponDamageTypePrefix",
+      "isPrefix": true,
+      "tags": [
+        "伤害",
+        "元素",
+        "冰霜"
+      ],
+      "dropChance": 50,
+      "level": 81
+    },
+    {
+      "name": "闪电伤害提高 (25—34)%",
+      "id": "WeaponDamageTypePrefix",
+      "isPrefix": true,
+      "tags": [
+        "伤害",
+        "元素",
+        "闪电"
+      ],
+      "dropChance": 500,
+      "level": 2
+    },
+    {
+      "name": "闪电伤害提高 (35—44)%",
+      "id": "WeaponDamageTypePrefix",
+      "isPrefix": true,
+      "tags": [
+        "伤害",
+        "元素",
+        "闪电"
+      ],
+      "dropChance": 500,
+      "level": 8
+    },
+    {
+      "name": "闪电伤害提高 (45—54)%",
+      "id": "WeaponDamageTypePrefix",
+      "isPrefix": true,
+      "tags": [
+        "伤害",
+        "元素",
+        "闪电"
+      ],
+      "dropChance": 500,
+      "level": 16
+    },
+    {
+      "name": "闪电伤害提高 (55—64)%",
+      "id": "WeaponDamageTypePrefix",
+      "isPrefix": true,
+      "tags": [
+        "伤害",
+        "元素",
+        "闪电"
+      ],
+      "dropChance": 400,
+      "level": 33
+    },
+    {
+      "name": "闪电伤害提高 (65—74)%",
+      "id": "WeaponDamageTypePrefix",
+      "isPrefix": true,
+      "tags": [
+        "伤害",
+        "元素",
+        "闪电"
+      ],
+      "dropChance": 300,
+      "level": 46
+    },
+    {
+      "name": "闪电伤害提高 (75—89)%",
+      "id": "WeaponDamageTypePrefix",
+      "isPrefix": true,
+      "tags": [
+        "伤害",
+        "元素",
+        "闪电"
+      ],
+      "dropChance": 200,
+      "level": 60
+    },
+    {
+      "name": "闪电伤害提高 (90—104)%",
+      "id": "WeaponDamageTypePrefix",
+      "isPrefix": true,
+      "tags": [
+        "伤害",
+        "元素",
+        "闪电"
+      ],
+      "dropChance": 100,
+      "level": 70
+    },
+    {
+      "name": "闪电伤害提高 (105—119)%",
+      "id": "WeaponDamageTypePrefix",
+      "isPrefix": true,
+      "tags": [
+        "伤害",
+        "元素",
+        "闪电"
+      ],
+      "dropChance": 50,
+      "level": 81
+    },
+    {
+      "name": "混沌伤害提高 (25—34)%",
+      "id": "WeaponDamageTypePrefix",
+      "isPrefix": true,
+      "tags": [
+        "伤害",
+        "混沌"
+      ],
+      "dropChance": 500,
+      "level": 2
+    },
+    {
+      "name": "混沌伤害提高 (35—44)%",
+      "id": "WeaponDamageTypePrefix",
+      "isPrefix": true,
+      "tags": [
+        "伤害",
+        "混沌"
+      ],
+      "dropChance": 500,
+      "level": 8
+    },
+    {
+      "name": "混沌伤害提高 (45—54)%",
+      "id": "WeaponDamageTypePrefix",
+      "isPrefix": true,
+      "tags": [
+        "伤害",
+        "混沌"
+      ],
+      "dropChance": 500,
+      "level": 16
+    },
+    {
+      "name": "混沌伤害提高 (55—64)%",
+      "id": "WeaponDamageTypePrefix",
+      "isPrefix": true,
+      "tags": [
+        "伤害",
+        "混沌"
+      ],
+      "dropChance": 400,
+      "level": 33
+    },
+    {
+      "name": "混沌伤害提高 (65—74)%",
+      "id": "WeaponDamageTypePrefix",
+      "isPrefix": true,
+      "tags": [
+        "伤害",
+        "混沌"
+      ],
+      "dropChance": 300,
+      "level": 46
+    },
+    {
+      "name": "混沌伤害提高 (75—89)%",
+      "id": "WeaponDamageTypePrefix",
+      "isPrefix": true,
+      "tags": [
+        "伤害",
+        "混沌"
+      ],
+      "dropChance": 200,
+      "level": 60
+    },
+    {
+      "name": "混沌伤害提高 (90—104)%",
+      "id": "WeaponDamageTypePrefix",
+      "isPrefix": true,
+      "tags": [
+        "伤害",
+        "混沌"
+      ],
+      "dropChance": 100,
+      "level": 70
+    },
+    {
+      "name": "混沌伤害提高 (105—119)%",
+      "id": "WeaponDamageTypePrefix",
+      "isPrefix": true,
+      "tags": [
+        "伤害",
+        "混沌"
+      ],
+      "dropChance": 50,
+      "level": 81
+    },
+    {
+      "name": "(25—34)% 法术物理伤害提高",
+      "id": "WeaponDamageTypePrefix",
+      "isPrefix": true,
+      "tags": [
+        "伤害",
+        "物理"
+      ],
+      "dropChance": 500,
+      "level": 2
+    },
+    {
+      "name": "(35—44)% 法术物理伤害提高",
+      "id": "WeaponDamageTypePrefix",
+      "isPrefix": true,
+      "tags": [
+        "伤害",
+        "物理"
+      ],
+      "dropChance": 500,
+      "level": 8
+    },
+    {
+      "name": "(45—54)% 法术物理伤害提高",
+      "id": "WeaponDamageTypePrefix",
+      "isPrefix": true,
+      "tags": [
+        "伤害",
+        "物理"
+      ],
+      "dropChance": 500,
+      "level": 16
+    },
+    {
+      "name": "(55—64)% 法术物理伤害提高",
+      "id": "WeaponDamageTypePrefix",
+      "isPrefix": true,
+      "tags": [
+        "伤害",
+        "物理"
+      ],
+      "dropChance": 400,
+      "level": 33
+    },
+    {
+      "name": "(65—74)% 法术物理伤害提高",
+      "id": "WeaponDamageTypePrefix",
+      "isPrefix": true,
+      "tags": [
+        "伤害",
+        "物理"
+      ],
+      "dropChance": 300,
+      "level": 46
+    },
+    {
+      "name": "(75—89)% 法术物理伤害提高",
+      "id": "WeaponDamageTypePrefix",
+      "isPrefix": true,
+      "tags": [
+        "伤害",
+        "物理"
+      ],
+      "dropChance": 200,
+      "level": 60
+    },
+    {
+      "name": "(90—104)% 法术物理伤害提高",
+      "id": "WeaponDamageTypePrefix",
+      "isPrefix": true,
+      "tags": [
+        "伤害",
+        "物理"
+      ],
+      "dropChance": 100,
+      "level": 70
+    },
+    {
+      "name": "(105—119)% 法术物理伤害提高",
+      "id": "WeaponDamageTypePrefix",
+      "isPrefix": true,
+      "tags": [
+        "伤害",
+        "物理"
+      ],
+      "dropChance": 50,
+      "level": 81
+    },
+    {
+      "name": "所有法术技能等级 +1",
+      "id": "IncreaseSocketedGemLevel",
+      "isPrefix": false,
+      "tags": [
+        "施法",
+        "宝石"
+      ],
+      "dropChance": 200,
+      "level": 5
+    },
+    {
+      "name": "所有法术技能等级 +2",
+      "id": "IncreaseSocketedGemLevel",
+      "isPrefix": false,
+      "tags": [
+        "施法",
+        "宝石"
+      ],
+      "dropChance": 150,
+      "level": 25
+    },
+    {
+      "name": "所有法术技能等级 +3",
+      "id": "IncreaseSocketedGemLevel",
+      "isPrefix": false,
+      "tags": [
+        "施法",
+        "宝石"
+      ],
+      "dropChance": 100,
+      "level": 55
+    },
+    {
+      "name": "所有法术技能等级 +4",
+      "id": "IncreaseSocketedGemLevel",
+      "isPrefix": false,
+      "tags": [
+        "施法",
+        "宝石"
+      ],
+      "dropChance": 50,
+      "level": 78
+    },
+    {
+      "name": "所有火焰法术技能等级 +1",
+      "id": "IncreaseSocketedGemLevel",
+      "isPrefix": false,
+      "tags": [
+        "元素",
+        "火焰",
+        "施法",
+        "宝石"
+      ],
+      "dropChance": 1000,
+      "level": 2
+    },
+    {
+      "name": "所有火焰法术技能等级 +2",
+      "id": "IncreaseSocketedGemLevel",
+      "isPrefix": false,
+      "tags": [
+        "元素",
+        "火焰",
+        "施法",
+        "宝石"
+      ],
+      "dropChance": 750,
+      "level": 18
+    },
+    {
+      "name": "所有火焰法术技能等级 +3",
+      "id": "IncreaseSocketedGemLevel",
+      "isPrefix": false,
+      "tags": [
+        "元素",
+        "火焰",
+        "施法",
+        "宝石"
+      ],
+      "dropChance": 500,
+      "level": 36
+    },
+    {
+      "name": "所有火焰法术技能等级 +4",
+      "id": "IncreaseSocketedGemLevel",
+      "isPrefix": false,
+      "tags": [
+        "元素",
+        "火焰",
+        "施法",
+        "宝石"
+      ],
+      "dropChance": 250,
+      "level": 55
+    },
+    {
+      "name": "所有火焰法术技能等级 +5",
+      "id": "IncreaseSocketedGemLevel",
+      "isPrefix": false,
+      "tags": [
+        "元素",
+        "火焰",
+        "施法",
+        "宝石"
+      ],
+      "dropChance": 100,
+      "level": 81
+    },
+    {
+      "name": "所有冰霜法术技能等级 +1",
+      "id": "IncreaseSocketedGemLevel",
+      "isPrefix": false,
+      "tags": [
+        "元素",
+        "冰霜",
+        "施法",
+        "宝石"
+      ],
+      "dropChance": 1000,
+      "level": 2
+    },
+    {
+      "name": "所有冰霜法术技能等级 +2",
+      "id": "IncreaseSocketedGemLevel",
+      "isPrefix": false,
+      "tags": [
+        "元素",
+        "冰霜",
+        "施法",
+        "宝石"
+      ],
+      "dropChance": 750,
+      "level": 18
+    },
+    {
+      "name": "所有冰霜法术技能等级 +3",
+      "id": "IncreaseSocketedGemLevel",
+      "isPrefix": false,
+      "tags": [
+        "元素",
+        "冰霜",
+        "施法",
+        "宝石"
+      ],
+      "dropChance": 500,
+      "level": 36
+    },
+    {
+      "name": "所有冰霜法术技能等级 +4",
+      "id": "IncreaseSocketedGemLevel",
+      "isPrefix": false,
+      "tags": [
+        "元素",
+        "冰霜",
+        "施法",
+        "宝石"
+      ],
+      "dropChance": 250,
+      "level": 55
+    },
+    {
+      "name": "所有冰霜法术技能等级 +5",
+      "id": "IncreaseSocketedGemLevel",
+      "isPrefix": false,
+      "tags": [
+        "元素",
+        "冰霜",
+        "施法",
+        "宝石"
+      ],
+      "dropChance": 100,
+      "level": 81
+    },
+    {
+      "name": "所有闪电法术技能等级 +1",
+      "id": "IncreaseSocketedGemLevel",
+      "isPrefix": false,
+      "tags": [
+        "元素",
+        "闪电",
+        "施法",
+        "宝石"
+      ],
+      "dropChance": 1000,
+      "level": 2
+    },
+    {
+      "name": "所有闪电法术技能等级 +2",
+      "id": "IncreaseSocketedGemLevel",
+      "isPrefix": false,
+      "tags": [
+        "元素",
+        "闪电",
+        "施法",
+        "宝石"
+      ],
+      "dropChance": 750,
+      "level": 18
+    },
+    {
+      "name": "所有闪电法术技能等级 +3",
+      "id": "IncreaseSocketedGemLevel",
+      "isPrefix": false,
+      "tags": [
+        "元素",
+        "闪电",
+        "施法",
+        "宝石"
+      ],
+      "dropChance": 500,
+      "level": 36
+    },
+    {
+      "name": "所有闪电法术技能等级 +4",
+      "id": "IncreaseSocketedGemLevel",
+      "isPrefix": false,
+      "tags": [
+        "元素",
+        "闪电",
+        "施法",
+        "宝石"
+      ],
+      "dropChance": 250,
+      "level": 55
+    },
+    {
+      "name": "所有闪电法术技能等级 +5",
+      "id": "IncreaseSocketedGemLevel",
+      "isPrefix": false,
+      "tags": [
+        "元素",
+        "闪电",
+        "施法",
+        "宝石"
+      ],
+      "dropChance": 100,
+      "level": 81
+    },
+    {
+      "name": "所有混沌法术技能等级 +1",
+      "id": "IncreaseSocketedGemLevel",
+      "isPrefix": false,
+      "tags": [
+        "混沌",
+        "施法",
+        "宝石"
+      ],
+      "dropChance": 1000,
+      "level": 2
+    },
+    {
+      "name": "所有混沌法术技能等级 +2",
+      "id": "IncreaseSocketedGemLevel",
+      "isPrefix": false,
+      "tags": [
+        "混沌",
+        "施法",
+        "宝石"
+      ],
+      "dropChance": 750,
+      "level": 18
+    },
+    {
+      "name": "所有混沌法术技能等级 +3",
+      "id": "IncreaseSocketedGemLevel",
+      "isPrefix": false,
+      "tags": [
+        "混沌",
+        "施法",
+        "宝石"
+      ],
+      "dropChance": 500,
+      "level": 36
+    },
+    {
+      "name": "所有混沌法术技能等级 +4",
+      "id": "IncreaseSocketedGemLevel",
+      "isPrefix": false,
+      "tags": [
+        "混沌",
+        "施法",
+        "宝石"
+      ],
+      "dropChance": 250,
+      "level": 55
+    },
+    {
+      "name": "所有混沌法术技能等级 +5",
+      "id": "IncreaseSocketedGemLevel",
+      "isPrefix": false,
+      "tags": [
+        "混沌",
+        "施法",
+        "宝石"
+      ],
+      "dropChance": 100,
+      "level": 81
+    },
+    {
+      "name": "所有物理法术技能等级 +1",
+      "id": "IncreaseSocketedGemLevel",
+      "isPrefix": false,
+      "tags": [
+        "物理",
+        "施法",
+        "宝石"
+      ],
+      "dropChance": 1000,
+      "level": 2
+    },
+    {
+      "name": "所有物理法术技能等级 +2",
+      "id": "IncreaseSocketedGemLevel",
+      "isPrefix": false,
+      "tags": [
+        "物理",
+        "施法",
+        "宝石"
+      ],
+      "dropChance": 750,
+      "level": 18
+    },
+    {
+      "name": "所有物理法术技能等级 +3",
+      "id": "IncreaseSocketedGemLevel",
+      "isPrefix": false,
+      "tags": [
+        "物理",
+        "施法",
+        "宝石"
+      ],
+      "dropChance": 500,
+      "level": 36
+    },
+    {
+      "name": "所有物理法术技能等级 +4",
+      "id": "IncreaseSocketedGemLevel",
+      "isPrefix": false,
+      "tags": [
+        "物理",
+        "施法",
+        "宝石"
+      ],
+      "dropChance": 250,
+      "level": 55
+    },
+    {
+      "name": "所有物理法术技能等级 +5",
+      "id": "IncreaseSocketedGemLevel",
+      "isPrefix": false,
+      "tags": [
+        "物理",
+        "施法",
+        "宝石"
+      ],
+      "dropChance": 100,
+      "level": 81
+    },
+    {
+      "name": "魔力再生率提高 (10—19)%",
+      "id": "ManaRegeneration",
+      "isPrefix": false,
+      "tags": [
+        "魔力"
+      ],
+      "dropChance": 1000,
+      "level": 1
+    },
+    {
+      "name": "魔力再生率提高 (20—29)%",
+      "id": "ManaRegeneration",
+      "isPrefix": false,
+      "tags": [
+        "魔力"
+      ],
+      "dropChance": 1000,
+      "level": 18
+    },
+    {
+      "name": "魔力再生率提高 (30—39)%",
+      "id": "ManaRegeneration",
+      "isPrefix": false,
+      "tags": [
+        "魔力"
+      ],
+      "dropChance": 1000,
+      "level": 29
+    },
+    {
+      "name": "魔力再生率提高 (40—49)%",
+      "id": "ManaRegeneration",
+      "isPrefix": false,
+      "tags": [
+        "魔力"
+      ],
+      "dropChance": 1000,
+      "level": 42
+    },
+    {
+      "name": "魔力再生率提高 (50—59)%",
+      "id": "ManaRegeneration",
+      "isPrefix": false,
+      "tags": [
+        "魔力"
+      ],
+      "dropChance": 1000,
+      "level": 55
+    },
+    {
+      "name": "魔力再生率提高 (60—69)%",
+      "id": "ManaRegeneration",
+      "isPrefix": false,
+      "tags": [
+        "魔力"
+      ],
+      "dropChance": 1000,
+      "level": 79
+    },
+    {
+      "name": "每击败一名敌人获得 (4—6) 点生命",
+      "id": "LifeGainedFromEnemyDeath",
+      "isPrefix": false,
+      "tags": [
+        "生命"
+      ],
+      "dropChance": 750,
+      "level": 1
+    },
+    {
+      "name": "每击败一名敌人获得 (7—9) 点生命",
+      "id": "LifeGainedFromEnemyDeath",
+      "isPrefix": false,
+      "tags": [
+        "生命"
+      ],
+      "dropChance": 750,
+      "level": 11
+    },
+    {
+      "name": "每击败一名敌人获得 (10—18) 点生命",
+      "id": "LifeGainedFromEnemyDeath",
+      "isPrefix": false,
+      "tags": [
+        "生命"
+      ],
+      "dropChance": 750,
+      "level": 22
+    },
+    {
+      "name": "每击败一名敌人获得 (19—28) 点生命",
+      "id": "LifeGainedFromEnemyDeath",
+      "isPrefix": false,
+      "tags": [
+        "生命"
+      ],
+      "dropChance": 750,
+      "level": 33
+    },
+    {
+      "name": "每击败一名敌人获得 (29—40) 点生命",
+      "id": "LifeGainedFromEnemyDeath",
+      "isPrefix": false,
+      "tags": [
+        "生命"
+      ],
+      "dropChance": 750,
+      "level": 44
+    },
+    {
+      "name": "每击败一名敌人获得 (41—53) 点生命",
+      "id": "LifeGainedFromEnemyDeath",
+      "isPrefix": false,
+      "tags": [
+        "生命"
+      ],
+      "dropChance": 750,
+      "level": 55
+    },
+    {
+      "name": "每击败一名敌人获得 (54—68) 点生命",
+      "id": "LifeGainedFromEnemyDeath",
+      "isPrefix": false,
+      "tags": [
+        "生命"
+      ],
+      "dropChance": 750,
+      "level": 66
+    },
+    {
+      "name": "每击败一名敌人获得 (69—84) 点生命",
+      "id": "LifeGainedFromEnemyDeath",
+      "isPrefix": false,
+      "tags": [
+        "生命"
+      ],
+      "dropChance": 750,
+      "level": 77
+    },
+    {
+      "name": "每击败一名敌人获得 (2—3) 点魔力",
+      "id": "ManaGainedFromEnemyDeath",
+      "isPrefix": false,
+      "tags": [
+        "魔力"
+      ],
+      "dropChance": 750,
+      "level": 1
+    },
+    {
+      "name": "每击败一名敌人获得 (4—5) 点魔力",
+      "id": "ManaGainedFromEnemyDeath",
+      "isPrefix": false,
+      "tags": [
+        "魔力"
+      ],
+      "dropChance": 750,
+      "level": 12
+    },
+    {
+      "name": "每击败一名敌人获得 (6—9) 点魔力",
+      "id": "ManaGainedFromEnemyDeath",
+      "isPrefix": false,
+      "tags": [
+        "魔力"
+      ],
+      "dropChance": 750,
+      "level": 23
+    },
+    {
+      "name": "每击败一名敌人获得 (10—14) 点魔力",
+      "id": "ManaGainedFromEnemyDeath",
+      "isPrefix": false,
+      "tags": [
+        "魔力"
+      ],
+      "dropChance": 750,
+      "level": 34
+    },
+    {
+      "name": "每击败一名敌人获得 (15—20) 点魔力",
+      "id": "ManaGainedFromEnemyDeath",
+      "isPrefix": false,
+      "tags": [
+        "魔力"
+      ],
+      "dropChance": 750,
+      "level": 45
+    },
+    {
+      "name": "每击败一名敌人获得 (21—27) 点魔力",
+      "id": "ManaGainedFromEnemyDeath",
+      "isPrefix": false,
+      "tags": [
+        "魔力"
+      ],
+      "dropChance": 750,
+      "level": 56
+    },
+    {
+      "name": "每击败一名敌人获得 (28—35) 点魔力",
+      "id": "ManaGainedFromEnemyDeath",
+      "isPrefix": false,
+      "tags": [
+        "魔力"
+      ],
+      "dropChance": 750,
+      "level": 67
+    },
+    {
+      "name": "每击败一名敌人获得 (36—45) 点魔力",
+      "id": "ManaGainedFromEnemyDeath",
+      "isPrefix": false,
+      "tags": [
+        "魔力"
+      ],
+      "dropChance": 750,
+      "level": 78
+    },
+    {
+      "name": "施法速度提高 (9—12)%",
+      "id": "IncreasedCastSpeed",
+      "isPrefix": false,
+      "tags": [
+        "施法",
+        "速度"
+      ],
+      "dropChance": 1000,
+      "level": 1
+    },
+    {
+      "name": "施法速度提高 (13—16)%",
+      "id": "IncreasedCastSpeed",
+      "isPrefix": false,
+      "tags": [
+        "施法",
+        "速度"
+      ],
+      "dropChance": 1000,
+      "level": 15
+    },
+    {
+      "name": "施法速度提高 (17—20)%",
+      "id": "IncreasedCastSpeed",
+      "isPrefix": false,
+      "tags": [
+        "施法",
+        "速度"
+      ],
+      "dropChance": 1000,
+      "level": 30
+    },
+    {
+      "name": "施法速度提高 (21—24)%",
+      "id": "IncreasedCastSpeed",
+      "isPrefix": false,
+      "tags": [
+        "施法",
+        "速度"
+      ],
+      "dropChance": 1000,
+      "level": 45
+    },
+    {
+      "name": "施法速度提高 (25—28)%",
+      "id": "IncreasedCastSpeed",
+      "isPrefix": false,
+      "tags": [
+        "施法",
+        "速度"
+      ],
+      "dropChance": 1000,
+      "level": 60
+    },
+    {
+      "name": "施法速度提高 (29—32)%",
+      "id": "IncreasedCastSpeed",
+      "isPrefix": false,
+      "tags": [
+        "施法",
+        "速度"
+      ],
+      "dropChance": 500,
+      "level": 70
+    },
+    {
+      "name": "施法速度提高 (33—35)%",
+      "id": "IncreasedCastSpeed",
+      "isPrefix": false,
+      "tags": [
+        "施法",
+        "速度"
+      ],
+      "dropChance": 250,
+      "level": 80
+    },
+    {
+      "name": "法术暴击率提高 (27—33)%",
+      "id": "SpellCriticalStrikeChanceIncrease",
+      "isPrefix": false,
+      "tags": [
+        "施法",
+        "暴击"
+      ],
+      "dropChance": 1000,
+      "level": 11
+    },
+    {
+      "name": "法术暴击率提高 (34—39)%",
+      "id": "SpellCriticalStrikeChanceIncrease",
+      "isPrefix": false,
+      "tags": [
+        "施法",
+        "暴击"
+      ],
+      "dropChance": 1000,
+      "level": 21
+    },
+    {
+      "name": "法术暴击率提高 (40—46)%",
+      "id": "SpellCriticalStrikeChanceIncrease",
+      "isPrefix": false,
+      "tags": [
+        "施法",
+        "暴击"
+      ],
+      "dropChance": 1000,
+      "level": 28
+    },
+    {
+      "name": "法术暴击率提高 (47—53)%",
+      "id": "SpellCriticalStrikeChanceIncrease",
+      "isPrefix": false,
+      "tags": [
+        "施法",
+        "暴击"
+      ],
+      "dropChance": 500,
+      "level": 41
+    },
+    {
+      "name": "法术暴击率提高 (54—59)%",
+      "id": "SpellCriticalStrikeChanceIncrease",
+      "isPrefix": false,
+      "tags": [
+        "施法",
+        "暴击"
+      ],
+      "dropChance": 250,
+      "level": 59
+    },
+    {
+      "name": "法术暴击率提高 (60—73)%",
+      "id": "SpellCriticalStrikeChanceIncrease",
+      "isPrefix": false,
+      "tags": [
+        "施法",
+        "暴击"
+      ],
+      "dropChance": 125,
+      "level": 76
+    },
+    {
+      "name": "法术暴击伤害加成提高 (10—14)%",
+      "id": "CriticalStrikeMultiplier",
+      "isPrefix": false,
+      "tags": [
+        "施法",
+        "暴击"
+      ],
+      "dropChance": 1000,
+      "level": 8
+    },
+    {
+      "name": "法术暴击伤害加成提高 (15—19)%",
+      "id": "CriticalStrikeMultiplier",
+      "isPrefix": false,
+      "tags": [
+        "施法",
+        "暴击"
+      ],
+      "dropChance": 1000,
+      "level": 21
+    },
+    {
+      "name": "法术暴击伤害加成提高 (20—24)%",
+      "id": "CriticalStrikeMultiplier",
+      "isPrefix": false,
+      "tags": [
+        "施法",
+        "暴击"
+      ],
+      "dropChance": 1000,
+      "level": 30
+    },
+    {
+      "name": "法术暴击伤害加成提高 (25—29)%",
+      "id": "CriticalStrikeMultiplier",
+      "isPrefix": false,
+      "tags": [
+        "施法",
+        "暴击"
+      ],
+      "dropChance": 500,
+      "level": 44
+    },
+    {
+      "name": "法术暴击伤害加成提高 (30—34)%",
+      "id": "CriticalStrikeMultiplier",
+      "isPrefix": false,
+      "tags": [
+        "施法",
+        "暴击"
+      ],
+      "dropChance": 250,
+      "level": 59
+    },
+    {
+      "name": "法术暴击伤害加成提高 (35—39)%",
+      "id": "CriticalStrikeMultiplier",
+      "isPrefix": false,
+      "tags": [
+        "施法",
+        "暴击"
+      ],
+      "dropChance": 125,
+      "level": 73
+    },
+    {
+      "name": "魔力再生率提高 (8—12)%<br>照亮范围提高 5%",
+      "id": "LightRadiusAndManaRegeneration",
+      "isPrefix": false,
+      "tags": [
+        "魔力"
+      ],
+      "dropChance": 1000,
+      "level": 8
+    },
+    {
+      "name": "魔力再生率提高 (13—17)%<br>照亮范围提高 10%",
+      "id": "LightRadiusAndManaRegeneration",
+      "isPrefix": false,
+      "tags": [
+        "魔力"
+      ],
+      "dropChance": 1000,
+      "level": 15
+    },
+    {
+      "name": "魔力再生率提高 (18—22)%<br>照亮范围提高 15%",
+      "id": "LightRadiusAndManaRegeneration",
+      "isPrefix": false,
+      "tags": [
+        "魔力"
+      ],
+      "dropChance": 1000,
+      "level": 30
+    },
+    {
+      "name": "易燃强度提高 (51—60)%",
+      "id": "IgniteChanceIncrease",
+      "isPrefix": false,
+      "tags": [
+        "元素",
+        "火焰",
+        "异常状态"
+      ],
+      "dropChance": 1000,
+      "level": 15
+    },
+    {
+      "name": "易燃强度提高 (61—70)%",
+      "id": "IgniteChanceIncrease",
+      "isPrefix": false,
+      "tags": [
+        "元素",
+        "火焰",
+        "异常状态"
+      ],
+      "dropChance": 1000,
+      "level": 30
+    },
+    {
+      "name": "易燃强度提高 (71—80)%",
+      "id": "IgniteChanceIncrease",
+      "isPrefix": false,
+      "tags": [
+        "元素",
+        "火焰",
+        "异常状态"
+      ],
+      "dropChance": 1000,
+      "level": 45
+    },
+    {
+      "name": "易燃强度提高 (81—90)%",
+      "id": "IgniteChanceIncrease",
+      "isPrefix": false,
+      "tags": [
+        "元素",
+        "火焰",
+        "异常状态"
+      ],
+      "dropChance": 500,
+      "level": 60
+    },
+    {
+      "name": "易燃强度提高 (91—100)%",
+      "id": "IgniteChanceIncrease",
+      "isPrefix": false,
+      "tags": [
+        "元素",
+        "火焰",
+        "异常状态"
+      ],
+      "dropChance": 500,
+      "level": 75
+    },
+    {
+      "name": "冻结积蓄值提高 (31—40)%",
+      "id": "FreezeDamageIncrease",
+      "isPrefix": false,
+      "tags": [
+        "元素",
+        "冰霜",
+        "异常状态"
+      ],
+      "dropChance": 1000,
+      "level": 15
+    },
+    {
+      "name": "冻结积蓄值提高 (41—50)%",
+      "id": "FreezeDamageIncrease",
+      "isPrefix": false,
+      "tags": [
+        "元素",
+        "冰霜",
+        "异常状态"
+      ],
+      "dropChance": 1000,
+      "level": 30
+    },
+    {
+      "name": "冻结积蓄值提高 (51—60)%",
+      "id": "FreezeDamageIncrease",
+      "isPrefix": false,
+      "tags": [
+        "元素",
+        "冰霜",
+        "异常状态"
+      ],
+      "dropChance": 1000,
+      "level": 45
+    },
+    {
+      "name": "冻结积蓄值提高 (61—70)%",
+      "id": "FreezeDamageIncrease",
+      "isPrefix": false,
+      "tags": [
+        "元素",
+        "冰霜",
+        "异常状态"
+      ],
+      "dropChance": 500,
+      "level": 60
+    },
+    {
+      "name": "冻结积蓄值提高 (71—80)%",
+      "id": "FreezeDamageIncrease",
+      "isPrefix": false,
+      "tags": [
+        "元素",
+        "冰霜",
+        "异常状态"
+      ],
+      "dropChance": 500,
+      "level": 75
+    },
+    {
+      "name": "感电几率提高 (51—60)%",
+      "id": "ShockChanceIncrease",
+      "isPrefix": false,
+      "tags": [
+        "元素",
+        "闪电",
+        "异常状态"
+      ],
+      "dropChance": 1000,
+      "level": 15
+    },
+    {
+      "name": "感电几率提高 (61—70)%",
+      "id": "ShockChanceIncrease",
+      "isPrefix": false,
+      "tags": [
+        "元素",
+        "闪电",
+        "异常状态"
+      ],
+      "dropChance": 1000,
+      "level": 30
+    },
+    {
+      "name": "感电几率提高 (71—80)%",
+      "id": "ShockChanceIncrease",
+      "isPrefix": false,
+      "tags": [
+        "元素",
+        "闪电",
+        "异常状态"
+      ],
+      "dropChance": 1000,
+      "level": 45
+    },
+    {
+      "name": "感电几率提高 (81—90)%",
+      "id": "ShockChanceIncrease",
+      "isPrefix": false,
+      "tags": [
+        "元素",
+        "闪电",
+        "异常状态"
+      ],
+      "dropChance": 500,
+      "level": 60
+    },
+    {
+      "name": "感电几率提高 (91—100)%",
+      "id": "ShockChanceIncrease",
+      "isPrefix": false,
+      "tags": [
+        "元素",
+        "闪电",
+        "异常状态"
+      ],
+      "dropChance": 500,
+      "level": 75
+    },
+    {
+      "name": "获得相当于伤害 (13—15)% 的额外火焰伤害",
+      "id": "FireDamage",
+      "isPrefix": true,
+      "tags": [
+        "伤害",
+        "元素",
+        "火焰"
+      ],
+      "dropChance": 500,
+      "level": 5
+    },
+    {
+      "name": "获得相当于伤害 (16—18)% 的额外火焰伤害",
+      "id": "FireDamage",
+      "isPrefix": true,
+      "tags": [
+        "伤害",
+        "元素",
+        "火焰"
+      ],
+      "dropChance": 500,
+      "level": 16
+    },
+    {
+      "name": "获得相当于伤害 (19—21)% 的额外火焰伤害",
+      "id": "FireDamage",
+      "isPrefix": true,
+      "tags": [
+        "伤害",
+        "元素",
+        "火焰"
+      ],
+      "dropChance": 500,
+      "level": 33
+    },
+    {
+      "name": "获得相当于伤害 (22—24)% 的额外火焰伤害",
+      "id": "FireDamage",
+      "isPrefix": true,
+      "tags": [
+        "伤害",
+        "元素",
+        "火焰"
+      ],
+      "dropChance": 500,
+      "level": 46
+    },
+    {
+      "name": "获得相当于伤害 (25—27)% 的额外火焰伤害",
+      "id": "FireDamage",
+      "isPrefix": true,
+      "tags": [
+        "伤害",
+        "元素",
+        "火焰"
+      ],
+      "dropChance": 500,
+      "level": 60
+    },
+    {
+      "name": "获得相当于伤害 (28—30)% 的额外火焰伤害",
+      "id": "FireDamage",
+      "isPrefix": true,
+      "tags": [
+        "伤害",
+        "元素",
+        "火焰"
+      ],
+      "dropChance": 500,
+      "level": 80
+    },
+    {
+      "name": "获得相当于伤害 (13—15)% 的额外冰霜伤害",
+      "id": "ColdDamage",
+      "isPrefix": true,
+      "tags": [
+        "伤害",
+        "元素",
+        "冰霜"
+      ],
+      "dropChance": 500,
+      "level": 5
+    },
+    {
+      "name": "获得相当于伤害 (16—18)% 的额外冰霜伤害",
+      "id": "ColdDamage",
+      "isPrefix": true,
+      "tags": [
+        "伤害",
+        "元素",
+        "冰霜"
+      ],
+      "dropChance": 500,
+      "level": 16
+    },
+    {
+      "name": "获得相当于伤害 (19—21)% 的额外冰霜伤害",
+      "id": "ColdDamage",
+      "isPrefix": true,
+      "tags": [
+        "伤害",
+        "元素",
+        "冰霜"
+      ],
+      "dropChance": 500,
+      "level": 33
+    },
+    {
+      "name": "获得相当于伤害 (22—24)% 的额外冰霜伤害",
+      "id": "ColdDamage",
+      "isPrefix": true,
+      "tags": [
+        "伤害",
+        "元素",
+        "冰霜"
+      ],
+      "dropChance": 500,
+      "level": 46
+    },
+    {
+      "name": "获得相当于伤害 (25—27)% 的额外冰霜伤害",
+      "id": "ColdDamage",
+      "isPrefix": true,
+      "tags": [
+        "伤害",
+        "元素",
+        "冰霜"
+      ],
+      "dropChance": 500,
+      "level": 60
+    },
+    {
+      "name": "获得相当于伤害 (28—30)% 的额外冰霜伤害",
+      "id": "ColdDamage",
+      "isPrefix": true,
+      "tags": [
+        "伤害",
+        "元素",
+        "冰霜"
+      ],
+      "dropChance": 500,
+      "level": 80
+    },
+    {
+      "name": "获得相当于伤害 (13—15)% 的额外闪电伤害",
+      "id": "LightningDamage",
+      "isPrefix": true,
+      "tags": [
+        "伤害",
+        "元素",
+        "闪电"
+      ],
+      "dropChance": 500,
+      "level": 5
+    },
+    {
+      "name": "获得相当于伤害 (16—18)% 的额外闪电伤害",
+      "id": "LightningDamage",
+      "isPrefix": true,
+      "tags": [
+        "伤害",
+        "元素",
+        "闪电"
+      ],
+      "dropChance": 500,
+      "level": 16
+    },
+    {
+      "name": "获得相当于伤害 (19—21)% 的额外闪电伤害",
+      "id": "LightningDamage",
+      "isPrefix": true,
+      "tags": [
+        "伤害",
+        "元素",
+        "闪电"
+      ],
+      "dropChance": 500,
+      "level": 33
+    },
+    {
+      "name": "获得相当于伤害 (22—24)% 的额外闪电伤害",
+      "id": "LightningDamage",
+      "isPrefix": true,
+      "tags": [
+        "伤害",
+        "元素",
+        "闪电"
+      ],
+      "dropChance": 500,
+      "level": 46
+    },
+    {
+      "name": "获得相当于伤害 (25—27)% 的额外闪电伤害",
+      "id": "LightningDamage",
+      "isPrefix": true,
+      "tags": [
+        "伤害",
+        "元素",
+        "闪电"
+      ],
+      "dropChance": 500,
+      "level": 60
+    },
+    {
+      "name": "获得相当于伤害 (28—30)% 的额外闪电伤害",
+      "id": "LightningDamage",
+      "isPrefix": true,
+      "tags": [
+        "伤害",
+        "元素",
+        "闪电"
+      ],
+      "dropChance": 500,
+      "level": 80
+    }
+  ]
+}

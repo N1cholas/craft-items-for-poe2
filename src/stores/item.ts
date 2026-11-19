@@ -1,7 +1,9 @@
 import { defineStore } from 'pinia'
-import { ref } from 'vue'
+import { computed, ref } from 'vue'
+import { useDataStore } from '@/stores/data.ts'
+import { assignRankById } from '@/utils/assignRankById.ts'
 
-export type ItemType = 'bow' | 'daggers' | 'quarterstaves'
+export type ItemType = 'bow' | 'daggers' | 'quarterstaves' | 'wand'
 export type ItemRarity = 'normal' | 'magic' | 'rare'
 
 export type Item = {
@@ -28,6 +30,7 @@ const itemTypeOptionLabelMap: Record<ItemType, string> = {
   bow: '弓',
   daggers: '匕首',
   quarterstaves: '细仗',
+  wand: '法杖',
 }
 
 const itemRarityOptionLabelMap: Record<ItemRarity, string> = {
@@ -38,6 +41,7 @@ const itemRarityOptionLabelMap: Record<ItemRarity, string> = {
 
 export const useItemStore = defineStore('item', () => {
   const item = ref(initItem)
+
   const itemTypeOptions = ref(
     Object.entries(itemTypeOptionLabelMap).map(([value, label]) => ({ value, label })),
   )
@@ -45,5 +49,10 @@ export const useItemStore = defineStore('item', () => {
     Object.entries(itemRarityOptionLabelMap).map(([value, label]) => ({ value, label })),
   )
 
-  return { item, itemTypeOptions, itemRarityOptions }
+  const dataStore = useDataStore()
+  const itemAffixesPool = computed(() =>
+    assignRankById(dataStore.dataPool[item.value.type], 'id', 'level', 'tier'),
+  )
+
+  return { item, itemTypeOptions, itemRarityOptions, itemAffixesPool }
 })

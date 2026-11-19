@@ -1,9 +1,3 @@
-<script setup lang="ts">
-import { useItemStore } from '@/stores/item.ts'
-
-const itemStore = useItemStore()
-</script>
-
 <template>
   <div class="greetings">
     <h1 class="green">Item Info</h1>
@@ -21,9 +15,21 @@ const itemStore = useItemStore()
         {{ option.label }}
       </option>
     </select>
-    <h2>item affixes</h2>
+    <h2>affixes pool</h2>
+    <AffixList />
   </div>
 </template>
+
+<script setup lang="ts">
+import { useItemStore } from '@/stores/item.ts'
+import { computed } from 'vue'
+import AffixList from '@/components/AffixList.vue'
+
+const itemStore = useItemStore()
+const affixesOptions = computed(() => {
+  return itemStore.itemAffixesPool
+})
+</script>
 
 <style scoped>
 h1 {
