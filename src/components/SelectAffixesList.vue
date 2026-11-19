@@ -18,7 +18,12 @@
               (option) => option.id === affixOption.id,
             )"
             :key="affixWithTierOption.id + affixWithTierOption.level"
-            @click="() => itemStore.addAffix(affixWithTierOption.id, affixWithTierOption.level)"
+            @click="
+              () =>
+                itemStore.addAffix(affixWithTierOption.id, {
+                  level: affixWithTierOption.level,
+                })
+            "
           >
             <t-list-item-meta
               :description="`${affixWithTierOption.name} T${affixWithTierOption.level}`"
@@ -51,7 +56,7 @@ const affixesWithTierOptions = computed(() => {
 const selectedAffixes = computed(() => {
   return itemStore.itemAffixesPool.filter((affixInPool) => {
     if (!itemStore.item.affixesMap.has(affixInPool.id)) return false
-    return affixInPool.level === itemStore.item.affixesMap.get(affixInPool.id)
+    return affixInPool.level === itemStore.item.affixesMap.get(affixInPool.id)?.level
   })
 })
 </script>

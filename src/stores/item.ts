@@ -10,7 +10,16 @@ export type Item = {
   type: ItemType
   level: number
   rarity: ItemRarity
-  affixesMap: Map<string, number>
+  affixesMap: Map<string, AffixStatus>
+  maxPrefix: number
+  maxSuffix: number
+}
+
+export type AffixStatus = {
+  level: number
+  locked?: boolean
+  desecrated?: boolean
+  decryption?: boolean
 }
 
 const initItem: Item = {
@@ -18,7 +27,9 @@ const initItem: Item = {
   type: 'bow',
   level: 82,
   rarity: 'rare',
-  affixesMap: new Map<string, number>(),
+  affixesMap: new Map<string, AffixStatus>(),
+  maxPrefix: 3,
+  maxSuffix: 3,
 }
 
 const itemTypeOptionLabelMap: Record<ItemType, string> = {
@@ -47,8 +58,8 @@ export const useItemStore = defineStore('item', () => {
   const dataStore = useDataStore()
   const itemAffixesPool = computed(() => dataStore.dataPool[item.value.type])
 
-  const addAffix = (id: string, tier: number) => {
-    item.value.affixesMap.set(id, tier)
+  const addAffix = (id: string, affixStatus: AffixStatus) => {
+    item.value.affixesMap.set(id, affixStatus)
   }
 
   const removeAffix = (id: string) => {

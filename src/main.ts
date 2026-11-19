@@ -1,4 +1,4 @@
-import './assets/main.css'
+import '@/styles/main.css'
 import 'tdesign-vue-next/es/style/index.css'
 import TDesign from 'tdesign-vue-next'
 import { createApp } from 'vue'
