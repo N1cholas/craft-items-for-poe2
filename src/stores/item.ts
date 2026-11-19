@@ -20,9 +20,10 @@ export type AffixStatus = {
   locked?: boolean
   desecrated?: boolean
   decryption?: boolean
+  isPrefix: boolean
 }
 
-const initItem: Item = {
+const createInitItem = (): Item => ({
   name: '',
   type: 'bow',
   level: 82,
@@ -30,7 +31,7 @@ const initItem: Item = {
   affixesMap: new Map<string, AffixStatus>(),
   maxPrefix: 3,
   maxSuffix: 3,
-}
+})
 
 const itemTypeOptionLabelMap: Record<ItemType, string> = {
   bow: '弓',
@@ -45,28 +46,85 @@ const itemRarityOptionLabelMap: Record<ItemRarity, string> = {
   rare: '稀有',
 }
 
+const itemTypeOptions = Object.entries(itemTypeOptionLabelMap).map(([value, label]) => ({
+  value,
+  label,
+}))
+
+const itemRarityOptions = Object.entries(itemRarityOptionLabelMap).map(([value, label]) => ({
+  value,
+  label,
+}))
+
+// 只放数据逻辑，不放视图逻辑
 export const useItemStore = defineStore('item', () => {
-  const item = ref(initItem)
-
-  const itemTypeOptions = ref(
-    Object.entries(itemTypeOptionLabelMap).map(([value, label]) => ({ value, label })),
-  )
-  const itemRarityOptions = ref(
-    Object.entries(itemRarityOptionLabelMap).map(([value, label]) => ({ value, label })),
-  )
-
   const dataStore = useDataStore()
-  const itemAffixesPool = computed(() => {
-    return dataStore.dataPool[item.value.type].filter((affix) => affix.level <= item.value.level)
+
+  const item = ref<Item>({
+    name: '',
+    type: 'bow',
+    level: 82,
+    rarity: 'rare',
+    affixesMap: new Map<string, AffixStatus>(),
+    maxPrefix: 3,
+    maxSuffix: 3,
   })
 
-  const addAffix = (id: string, affixStatus: AffixStatus) => {
-    item.value.affixesMap.set(id, affixStatus)
+  const affixCounts = computed(() => {
+    let prefix = 0
+    let suffix = 0
+    for (const status of item.value.affixesMap.values()) {
+      if (status.isPrefix) prefix++
+      else suffix++
+    }
+    return { prefix, suffix }
+  })
+
+  const itemAffixesPool = computed(() => {
+    return dataStore.dataPool[item.value.type] ?? []
+  })
+
+  const addAffix = (id: string, affixStatus: AffixStatus): boolean => {
+    const map = item.value.affixesMap
+
+    if (map.has(id)) {
+      map.set(id, affixStatus)
+      return true
+    }
+
+    const { prefix, suffix } = affixCounts.value
+    const canAdd = affixStatus.isPrefix
+      ? prefix < item.value.maxPrefix
+      : suffix < item.value.maxSuffix
+
+    if (!canAdd) {
+      return false
+    }
+
+    map.set(id, affixStatus)
+    return true
   }
 
-  const removeAffix = (id: string) => {
-    item.value.affixesMap.delete(id)
+  const removeAffix = (id: string): boolean => {
+    const target = item.value.affixesMap.get(id)
+    if (!target || target.locked) {
+      return false
+    }
+    return item.value.affixesMap.delete(id)
   }
 
-  return { item, itemTypeOptions, itemRarityOptions, itemAffixesPool, addAffix, removeAffix }
+  const resetItem = () => {
+    item.value = createInitItem()
+  }
+
+  return {
+    item,
+    affixCounts,
+    itemTypeOptions,
+    itemRarityOptions,
+    itemAffixesPool,
+    addAffix,
+    removeAffix,
+    resetItem,
+  }
 })

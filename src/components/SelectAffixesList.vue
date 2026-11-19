@@ -17,6 +17,7 @@
               () =>
                 itemStore.addAffix(affixWithTierOption.id, {
                   level: affixWithTierOption.level,
+                  isPrefix: affixWithTierOption.isPrefix,
                 })
             "
           >
@@ -36,8 +37,13 @@ import { deduplicateByMax } from '@/utils/deduplicateByMax.ts'
 import type { CollapseProps } from 'tdesign-vue-next'
 
 const itemStore = useItemStore()
+
+const affixesPool = computed(() => {
+  return itemStore.itemAffixesPool.filter((affix) => affix.level <= itemStore.item.level)
+})
+
 const itemAffixesOptions = computed(() => {
-  return deduplicateByMax(itemStore.itemAffixesPool, 'id', 'level')
+  return deduplicateByMax(affixesPool.value, 'id', 'level')
 })
 
 const curAffixIDs = ref<string[]>([])
@@ -45,7 +51,7 @@ const handlePanelChange: CollapseProps['onChange'] = (val) => {
   curAffixIDs.value = val.map(String)
 }
 const affixesWithTierOptions = computed(() => {
-  return itemStore.itemAffixesPool.filter((affix) => curAffixIDs.value.includes(affix.id))
+  return affixesPool.value.filter((affix) => curAffixIDs.value.includes(affix.id))
 })
 </script>
 <style scoped></style>
