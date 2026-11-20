@@ -15,6 +15,7 @@ export type Item = {
   maxSuffix: number
   lockedID: string
   step: number
+  desecrated: string
 }
 
 const createInitItem = (type: ItemType = 'bow'): Item => ({
@@ -26,6 +27,7 @@ const createInitItem = (type: ItemType = 'bow'): Item => ({
   maxSuffix: 3,
   lockedID: '',
   step: 0,
+  desecrated: '',
 })
 
 export const itemTypeLabelMap: Record<ItemType, string> = {
@@ -124,8 +126,8 @@ export const useItemStore = defineStore('item', () => {
       return false
     }
 
-    if (item.value.lockedID !== affix.id) {
-      item.value.lockedID = affix.id
+    if (item.value.lockedID !== id) {
+      item.value.lockedID = id
     } else {
       item.value.lockedID = ''
     }
@@ -133,8 +135,20 @@ export const useItemStore = defineStore('item', () => {
     return true
   }
 
-  const desecrateAffix = (affix: Affix): boolean => {
-    return false
+  const toggleDesecrateAffix = (affix: Affix): boolean => {
+    const id = affix.id
+    const target = item.value.affixesMap.has(id)
+    if (!target) {
+      return false
+    }
+
+    if (item.value.desecrated !== id) {
+      item.value.desecrated = id
+    } else {
+      item.value.desecrated = ''
+    }
+
+    return true
   }
 
   return {
@@ -148,6 +162,6 @@ export const useItemStore = defineStore('item', () => {
     isPrefix,
     removeAffix,
     toggleLockAffix,
-    desecrateAffix,
+    toggleDesecrateAffix,
   }
 })

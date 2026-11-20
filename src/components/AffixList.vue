@@ -11,6 +11,7 @@
           <template #icon>
             <t-icon v-show="itemStore.item.lockedID === affix.id" name="lock-on" />
           </template>
+          {{ itemStore.item.desecrated === affix.id ? '深渊' : '' }}
           {{ affix.isPrefix ? '前缀' : '后缀' }}
         </t-tag>
       </div>

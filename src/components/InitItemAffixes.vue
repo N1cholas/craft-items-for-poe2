@@ -19,7 +19,7 @@
               <t-icon v-else name="lock-off" />
             </t-button>
             <t-button
-              theme="default"
+              :theme="itemStore.item.desecrated === affixFamily.id ? 'primary' : 'default'"
               variant="outline"
               @click="() => handleDesecrate(affixFamily)"
               size="small"
@@ -56,9 +56,7 @@ const generateAffixesPool = computed(() => {
 })
 
 const affixFamilies = computed(() => {
-  return deduplicateByMax(generateAffixesPool.value, 'id', 'level').sort((a) =>
-    itemStore.item.affixesMap.has(a.id) ? -1 : 1,
-  )
+  return deduplicateByMax(generateAffixesPool.value, 'id', 'level')
 })
 
 const curAffixIDs = ref<string[]>([])
@@ -82,7 +80,7 @@ const handleLock = (affix: Affix) => {
 }
 
 const handleDesecrate = (affix: Affix) => {
-  itemStore.desecrateAffix(affix)
+  itemStore.toggleDesecrateAffix(affix)
 }
 </script>
 <style scoped>
