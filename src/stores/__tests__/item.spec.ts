@@ -63,6 +63,7 @@ describe('useItemStore', () => {
     expect(store.item.lockedID).toBe('')
     expect(store.item.affixesMap.size).toBe(0)
     expect(store.affixCounts).toEqual({ prefix: 0, suffix: 0 })
+    expect(store.item.step).toEqual(0)
   })
 
   it('add affixes and get its level', () => {

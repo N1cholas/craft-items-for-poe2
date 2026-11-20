@@ -7,7 +7,6 @@ export type ItemType = 'bow' | 'daggers' | 'quarterstaves' | 'wand'
 export type ItemRarity = 'normal' | 'magic' | 'rare'
 
 export type Item = {
-  name: string
   type: ItemType
   level: number
   rarity: ItemRarity
@@ -15,10 +14,10 @@ export type Item = {
   maxPrefix: number
   maxSuffix: number
   lockedID: string
+  step: number
 }
 
 const createInitItem = (type: ItemType = 'bow'): Item => ({
-  name: '',
   type,
   level: 82,
   rarity: 'rare',
@@ -26,27 +25,28 @@ const createInitItem = (type: ItemType = 'bow'): Item => ({
   maxPrefix: 3,
   maxSuffix: 3,
   lockedID: '',
+  step: 0,
 })
 
-const itemTypeOptionLabelMap: Record<ItemType, string> = {
+export const itemTypeLabelMap: Record<ItemType, string> = {
   bow: '弓',
   daggers: '匕首',
   quarterstaves: '细仗',
   wand: '法杖',
 }
 
-const itemRarityOptionLabelMap: Record<ItemRarity, string> = {
+export const itemRarityLabelMap: Record<ItemRarity, string> = {
   normal: '普通',
   magic: '魔法',
   rare: '稀有',
 }
 
-const itemTypeOptions = Object.entries(itemTypeOptionLabelMap).map(([value, label]) => ({
+const itemTypeOptions = Object.entries(itemTypeLabelMap).map(([value, label]) => ({
   value,
   label,
 }))
 
-const itemRarityOptions = Object.entries(itemRarityOptionLabelMap).map(([value, label]) => ({
+const itemRarityOptions = Object.entries(itemRarityLabelMap).map(([value, label]) => ({
   value,
   label,
 }))
@@ -133,6 +133,10 @@ export const useItemStore = defineStore('item', () => {
     return true
   }
 
+  const desecrateAffix = (affix: Affix): boolean => {
+    return false
+  }
+
   return {
     item,
     affixCounts,
@@ -144,5 +148,6 @@ export const useItemStore = defineStore('item', () => {
     isPrefix,
     removeAffix,
     toggleLockAffix,
+    desecrateAffix,
   }
 })
