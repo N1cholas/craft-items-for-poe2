@@ -1,6 +1,7 @@
 import { defineStore } from 'pinia'
-import { computed, ref } from 'vue'
+import { computed, ref, watch } from 'vue'
 import { useDataStore } from '@/stores/data.ts'
+import type { Affix } from '@/data'
 
 export type ItemType = 'bow' | 'daggers' | 'quarterstaves' | 'wand'
 export type ItemRarity = 'normal' | 'magic' | 'rare'
@@ -23,9 +24,9 @@ export type AffixStatus = {
   isPrefix: boolean
 }
 
-const createInitItem = (): Item => ({
+const createInitItem = (type: ItemType = 'bow'): Item => ({
   name: '',
-  type: 'bow',
+  type,
   level: 82,
   rarity: 'rare',
   affixesMap: new Map<string, AffixStatus>(),
@@ -60,22 +61,20 @@ const itemRarityOptions = Object.entries(itemRarityOptionLabelMap).map(([value, 
 export const useItemStore = defineStore('item', () => {
   const dataStore = useDataStore()
 
-  const item = ref<Item>({
-    name: '',
-    type: 'bow',
-    level: 82,
-    rarity: 'rare',
-    affixesMap: new Map<string, AffixStatus>(),
-    maxPrefix: 3,
-    maxSuffix: 3,
-  })
+  const item = ref<Item>(createInitItem())
+
+  watch(
+    () => item.value.type,
+    () => {
+      item.value = createInitItem(item.value.type)
+    },
+  )
 
   const affixCounts = computed(() => {
     let prefix = 0
     let suffix = 0
     for (const status of item.value.affixesMap.values()) {
-      if (status.isPrefix) prefix++
-      else suffix++
+      status.isPrefix ? prefix++ : suffix++
     }
     return { prefix, suffix }
   })
@@ -84,8 +83,12 @@ export const useItemStore = defineStore('item', () => {
     return dataStore.dataPool[item.value.type] ?? []
   })
 
-  const addAffix = (id: string, affixStatus: AffixStatus): boolean => {
+  const addAffix = (
+    affix: Affix,
+    affixStatus: AffixStatus = { isPrefix: affix.isPrefix, level: affix.level },
+  ): boolean => {
     const map = item.value.affixesMap
+    const id = affix.id
 
     if (map.has(id)) {
       map.set(id, affixStatus)
@@ -105,7 +108,8 @@ export const useItemStore = defineStore('item', () => {
     return true
   }
 
-  const removeAffix = (id: string): boolean => {
+  const removeAffix = (affix: Affix): boolean => {
+    const id = affix.id
     const target = item.value.affixesMap.get(id)
     if (!target || target.locked) {
       return false

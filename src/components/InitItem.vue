@@ -51,38 +51,32 @@
         :marks="[0, 20, 40, 60, 80, 100]"
       />
       <t-typography-title :style="{ marginTop: '40px' }" level="h5">物品词缀</t-typography-title>
-      <t-list size="small">
-        <t-list-item
-          v-for="selectAffix in selectedAffixes"
-          :key="selectAffix.id + selectAffix.level"
-        >
-          <t-list-item-meta
-            :description="`${selectAffix.isPrefix} ${selectAffix.name} T${selectAffix.level}`"
-          />
-        </t-list-item>
-      </t-list>
+      <AffixList :affixes="initAffixes" />
     </template>
     <template #right>
-      <h2>affixes pool</h2>
-      <SelectAffixesList />
+      <t-typography-title level="h5">词缀池</t-typography-title>
+      <InitItemAffixes />
     </template>
   </EqualLayout>
 </template>
 
 <script setup lang="ts">
 import { useItemStore } from '@/stores/item.ts'
-import SelectAffixesList from '@/components/SelectAffixesList.vue'
+import InitItemAffixes from '@/components/InitItemAffixes.vue'
 import { computed } from 'vue'
 import EqualLayout from '@/components/EqualLayout.vue'
 import ThreePointLayout from '@/components/ThreePointLayout.vue'
+import AffixList from '@/components/AffixList.vue'
 
 const itemStore = useItemStore()
 
-const selectedAffixes = computed(() => {
-  return itemStore.itemAffixesPool.filter((affixInPool) => {
-    if (!itemStore.item.affixesMap.has(affixInPool.id)) return false
-    return affixInPool.level === itemStore.item.affixesMap.get(affixInPool.id)?.level
-  })
+const initAffixes = computed(() => {
+  return itemStore.itemAffixesPool
+    .filter((affixInPool) => {
+      if (!itemStore.item.affixesMap.has(affixInPool.id)) return false
+      return affixInPool.level === itemStore.item.affixesMap.get(affixInPool.id)?.level
+    })
+    .sort((a) => (a.isPrefix ? -1 : 1))
 })
 </script>
 
