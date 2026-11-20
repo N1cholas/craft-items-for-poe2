@@ -11,17 +11,10 @@ export type Item = {
   type: ItemType
   level: number
   rarity: ItemRarity
-  affixesMap: Map<string, AffixStatus>
+  affixesMap: Map<string, number>
   maxPrefix: number
   maxSuffix: number
-}
-
-export type AffixStatus = {
-  level: number
-  locked?: boolean
-  desecrated?: boolean
-  decryption?: boolean
-  isPrefix: boolean
+  lockedID: string
 }
 
 const createInitItem = (type: ItemType = 'bow'): Item => ({
@@ -29,9 +22,10 @@ const createInitItem = (type: ItemType = 'bow'): Item => ({
   type,
   level: 82,
   rarity: 'rare',
-  affixesMap: new Map<string, AffixStatus>(),
+  affixesMap: new Map<string, number>(),
   maxPrefix: 3,
   maxSuffix: 3,
+  lockedID: '',
 })
 
 const itemTypeOptionLabelMap: Record<ItemType, string> = {
@@ -70,11 +64,14 @@ export const useItemStore = defineStore('item', () => {
     },
   )
 
+  const isPrefix = (id: string) =>
+    itemAffixesPool.value.find((affixInPool) => affixInPool.id === id)?.isPrefix
+
   const affixCounts = computed(() => {
     let prefix = 0
     let suffix = 0
-    for (const status of item.value.affixesMap.values()) {
-      status.isPrefix ? prefix++ : suffix++
+    for (const id of item.value.affixesMap.keys()) {
+      isPrefix(id) ? prefix++ : suffix++
     }
     return { prefix, suffix }
   })
@@ -83,20 +80,17 @@ export const useItemStore = defineStore('item', () => {
     return dataStore.dataPool[item.value.type] ?? []
   })
 
-  const addAffix = (
-    affix: Affix,
-    affixStatus: AffixStatus = { isPrefix: affix.isPrefix, level: affix.level },
-  ): boolean => {
+  const addAffix = (affix: Affix): boolean => {
     const map = item.value.affixesMap
     const id = affix.id
 
     if (map.has(id)) {
-      map.set(id, affixStatus)
+      map.set(id, affix.level)
       return true
     }
 
     const { prefix, suffix } = affixCounts.value
-    const canAdd = affixStatus.isPrefix
+    const canAdd = isPrefix(affix.id)
       ? prefix < item.value.maxPrefix
       : suffix < item.value.maxSuffix
 
@@ -104,21 +98,37 @@ export const useItemStore = defineStore('item', () => {
       return false
     }
 
-    map.set(id, affixStatus)
+    map.set(id, affix.level)
     return true
+  }
+
+  const resetItem = () => {
+    item.value = createInitItem()
   }
 
   const removeAffix = (affix: Affix): boolean => {
     const id = affix.id
     const target = item.value.affixesMap.get(id)
-    if (!target || target.locked) {
+    if (!target || id === item.value.lockedID) {
       return false
     }
     return item.value.affixesMap.delete(id)
   }
 
-  const resetItem = () => {
-    item.value = createInitItem()
+  const toggleLock = (affix: Affix): boolean => {
+    const id = affix.id
+    const target = item.value.affixesMap.get(id)
+    if (!target) {
+      return false
+    }
+
+    if (item.value.lockedID !== affix.id) {
+      item.value.lockedID = affix.id
+    } else {
+      item.value.lockedID = ''
+    }
+
+    return true
   }
 
   return {
@@ -128,7 +138,9 @@ export const useItemStore = defineStore('item', () => {
     itemRarityOptions,
     itemAffixesPool,
     addAffix,
-    removeAffix,
     resetItem,
+    isPrefix,
+    removeAffix,
+    lockAffix: toggleLock,
   }
 })

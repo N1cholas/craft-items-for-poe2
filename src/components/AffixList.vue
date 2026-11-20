@@ -6,9 +6,14 @@
       :key="affix.id + affix.level"
       @click="() => handleClick(affix)"
     >
-      <t-tag shape="round" theme="primary" variant="outline">
-        {{ affix.isPrefix ? '前缀' : '后缀' }}
-      </t-tag>
+      <div>
+        <t-tag class="prefix-text" shape="round" theme="primary" variant="outline">
+          <template #icon>
+            <t-icon v-show="itemStore.item.lockedID === affix.id" name="lock-on" />
+          </template>
+          {{ affix.isPrefix ? '前缀' : '后缀' }}
+        </t-tag>
+      </div>
       {{ affix.name }}
       <t-tag shape="round" theme="primary" variant="outline">
         {{ `T${getTier(affix)}` }}

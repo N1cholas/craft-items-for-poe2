@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "pinia": "^4.0.3",
+    "tdesign-icons-vue-next": "^0.4.12",
     "tdesign-vue-next": "^1.20.11",
     "tsx": "^4.23.15",
     "vue": "^3.5.42",

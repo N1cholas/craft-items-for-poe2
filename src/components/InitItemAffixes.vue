@@ -6,14 +6,25 @@
       :key="affixFamily.id"
       :header="affixFamily.name"
     >
-      <template #headerRightContent>
+      <template #headerRightContent v-if="itemStore.item.affixesMap.has(affixFamily.id)">
         <t-space size="small">
           <t-button
-            v-if="itemStore.item.affixesMap.has(affixFamily.id)"
+            :theme="itemStore.item.lockedID === affixFamily.id ? 'primary' : 'default'"
+            variant="outline"
+            @click="() => handleLock(affixFamily)"
+            size="small"
+          >
+            <t-icon v-if="itemStore.item.lockedID === affixFamily.id" name="lock-on" />
+            <t-icon v-else name="lock-off" />
+          </t-button>
+          <t-button
+            theme="primary"
+            variant="outline"
             @click="() => handleRemove(affixFamily)"
             size="small"
-            >删除</t-button
           >
+            删除
+          </t-button>
         </t-space>
       </template>
       <AffixList :affixes="selectedAffixFamily" cursor :handleClick="handleSelectAffixWithTier" />
@@ -52,6 +63,10 @@ const handleSelectAffixWithTier = (affix: Affix) => {
 
 const handleRemove = (affix: Affix) => {
   itemStore.removeAffix(affix)
+}
+
+const handleLock = (affix: Affix) => {
+  itemStore.lockAffix(affix)
 }
 </script>
 <style scoped></style>

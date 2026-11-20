@@ -72,10 +72,11 @@ const itemStore = useItemStore()
 
 const initAffixes = computed(() => {
   return itemStore.itemAffixesPool
-    .filter((affixInPool) => {
-      if (!itemStore.item.affixesMap.has(affixInPool.id)) return false
-      return affixInPool.level === itemStore.item.affixesMap.get(affixInPool.id)?.level
-    })
+    .filter(
+      (affixInPool) =>
+        itemStore.item.affixesMap.has(affixInPool.id) &&
+        affixInPool.level === itemStore.item.affixesMap.get(affixInPool.id),
+    )
     .sort((a) => (a.isPrefix ? -1 : 1))
 })
 </script>
