@@ -66,7 +66,7 @@ const handleRemove = (affix: Affix) => {
 }
 
 const handleLock = (affix: Affix) => {
-  itemStore.lockAffix(affix)
+  itemStore.toggleLockAffix(affix)
 }
 </script>
 <style scoped></style>

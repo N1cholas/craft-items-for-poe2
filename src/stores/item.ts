@@ -57,6 +57,10 @@ export const useItemStore = defineStore('item', () => {
 
   const item = ref<Item>(createInitItem())
 
+  const itemAffixesPool = computed(() => {
+    return dataStore.dataPool[item.value.type] ?? []
+  })
+
   watch(
     () => item.value.type,
     () => {
@@ -71,13 +75,11 @@ export const useItemStore = defineStore('item', () => {
     let prefix = 0
     let suffix = 0
     for (const id of item.value.affixesMap.keys()) {
-      isPrefix(id) ? prefix++ : suffix++
+      if (item.value.affixesMap.has(id)) {
+        isPrefix(id) ? prefix++ : suffix++
+      }
     }
     return { prefix, suffix }
-  })
-
-  const itemAffixesPool = computed(() => {
-    return dataStore.dataPool[item.value.type] ?? []
   })
 
   const addAffix = (affix: Affix): boolean => {
@@ -103,21 +105,21 @@ export const useItemStore = defineStore('item', () => {
   }
 
   const resetItem = () => {
-    item.value = createInitItem()
+    item.value = createInitItem(item.value.type)
   }
 
   const removeAffix = (affix: Affix): boolean => {
     const id = affix.id
-    const target = item.value.affixesMap.get(id)
+    const target = item.value.affixesMap.has(id)
     if (!target || id === item.value.lockedID) {
       return false
     }
     return item.value.affixesMap.delete(id)
   }
 
-  const toggleLock = (affix: Affix): boolean => {
+  const toggleLockAffix = (affix: Affix): boolean => {
     const id = affix.id
-    const target = item.value.affixesMap.get(id)
+    const target = item.value.affixesMap.has(id)
     if (!target) {
       return false
     }
@@ -141,6 +143,6 @@ export const useItemStore = defineStore('item', () => {
     resetItem,
     isPrefix,
     removeAffix,
-    lockAffix: toggleLock,
+    toggleLockAffix,
   }
 })
