@@ -1,6 +1,7 @@
 <template>
   <t-list :class="{ cursor }" size="small">
     <t-list-item
+      class="list-item-hove"
       v-for="affix in affixes"
       :key="affix.id + affix.level"
       @click="() => handleClick(affix)"
@@ -36,5 +37,8 @@ const getTier = (affix: Affix): number =>
 <style scoped>
 .cursor {
   cursor: pointer;
+}
+.list-item-hove:hover {
+  background: antiquewhite;
 }
 </style>

@@ -54,7 +54,7 @@
       <AffixList :affixes="initAffixes" />
     </template>
     <template #right>
-      <t-typography-title level="h5">词缀池</t-typography-title>
+      <t-typography-title level="h5">全部相关词缀</t-typography-title>
       <InitItemAffixes />
     </template>
   </EqualLayout>

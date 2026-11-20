@@ -1,16 +1,22 @@
 <template>
   <t-collapse expand-mutex @change="handlePanelChange">
     <t-collapse-panel
-      v-for="affixOption in itemAffixesOptions"
-      :value="affixOption.id"
-      :key="affixOption.id"
-      :header="affixOption.name"
+      v-for="affixFamily in affixFamilies"
+      :value="affixFamily.id"
+      :key="affixFamily.id"
+      :header="affixFamily.name"
     >
-      <AffixList
-        :affixes="affixesWithTierOptions"
-        cursor
-        :handleClick="handleSelectAffixWithTier"
-      />
+      <template #headerRightContent>
+        <t-space size="small">
+          <t-button
+            v-if="itemStore.item.affixesMap.has(affixFamily.id)"
+            @click="() => handleRemove(affixFamily)"
+            size="small"
+            >删除</t-button
+          >
+        </t-space>
+      </template>
+      <AffixList :affixes="selectedAffixFamily" cursor :handleClick="handleSelectAffixWithTier" />
     </t-collapse-panel>
   </t-collapse>
 </template>
@@ -28,7 +34,7 @@ const generateAffixesPool = computed(() => {
   return itemStore.itemAffixesPool.filter((affix) => affix.level <= itemStore.item.level)
 })
 
-const itemAffixesOptions = computed(() => {
+const affixFamilies = computed(() => {
   return deduplicateByMax(generateAffixesPool.value, 'id', 'level')
 })
 
@@ -36,16 +42,16 @@ const curAffixIDs = ref<string[]>([])
 const handlePanelChange: CollapseProps['onChange'] = (val) => {
   curAffixIDs.value = val.map(String)
 }
-const affixesWithTierOptions = computed(() => {
+const selectedAffixFamily = computed(() => {
   return generateAffixesPool.value.filter((affix) => curAffixIDs.value[0] === affix.id)
 })
 
 const handleSelectAffixWithTier = (affix: Affix) => {
   itemStore.addAffix(affix)
 }
-</script>
-<style scoped>
-.cursor {
-  cursor: pointer;
+
+const handleRemove = (affix: Affix) => {
+  itemStore.removeAffix(affix)
 }
-</style>
+</script>
+<style scoped></style>
